@@ -1,5 +1,5 @@
 import alt from "alt-instance";
-import {ChainConfig} from "leedexjs-ws";
+import {ChainConfig} from "kreeljs-ws";
 import counterpart from "counterpart";
 import ZfApi from "react-foundation-apps/src/utils/foundation-api";
 

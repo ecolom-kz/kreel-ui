@@ -3,10 +3,10 @@ import Assets from "lib/bots/assets";
 import BigNumber from "bignumber.js";
 import WalletDb from "stores/WalletDb";
 import WalletUnlockActions from "actions/WalletUnlockActions";
-import {TransactionBuilder} from "leedexjs";
+import {TransactionBuilder} from "kreeljs";
 
 class Account {
-    constructor(name, feeSymbol = "LD") {
+    constructor(name, feeSymbol = "KREEL") {
         this.promise = Promise.all([
             Apis.db.get_account_by_name(name),
             Assets[feeSymbol]

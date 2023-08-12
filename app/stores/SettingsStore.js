@@ -3,7 +3,7 @@ import SettingsActions from "actions/SettingsActions";
 import IntlActions from "actions/IntlActions";
 import Immutable, {fromJS} from "immutable";
 import ls from "common/localStorage";
-import {Apis} from "leedexjs-ws";
+import {Apis} from "kreeljs-ws";
 import {settingsAPIs} from "api/apiConfig";
 import {
     getDefaultTheme,
@@ -14,7 +14,7 @@ import {
     getUnits
 } from "branding";
 
-const CORE_ASSET = "LD"; // Setting this to BTS to prevent loading issues when used with BTS chain which is the most usual case currently
+const CORE_ASSET = "KREEL"; // Setting this to BTS to prevent loading issues when used with BTS chain which is the most usual case currently
 
 const STORAGE_KEY = "__graphene__";
 let ss = ls(STORAGE_KEY);
@@ -510,10 +510,10 @@ class SettingsStore {
             };
 
             let coreAssets = {
-                markets_7fcf452d: "LD",
+                markets_7fcf452d: "KREEL",
                 markets_39f5e2ed: "TEST"
             };
-            let coreAsset = coreAssets[this.starredKey] || "LD";
+            let coreAsset = coreAssets[this.starredKey] || "KREEL";
             /*
              * Update units depending on the chain, also make sure the 0 index
              * asset is always the correct CORE asset name

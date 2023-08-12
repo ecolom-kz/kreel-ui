@@ -7,7 +7,7 @@ import WalletDb from "stores/WalletDb";
 import counterpart from "counterpart";
 import TransactionConfirmStore from "stores/TransactionConfirmStore";
 import Translate from "react-translate-component";
-import {FetchChain} from "leedexjs/es";
+import {FetchChain} from "kreeljs/es";
 import WalletUnlockActions from "actions/WalletUnlockActions";
 import Icon from "components/Icon/Icon";
 import {

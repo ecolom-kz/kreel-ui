@@ -1,4 +1,4 @@
-import {SerializerValidation, types} from "leedexjs";
+import {SerializerValidation, types} from "kreeljs";
 var config = require("chain/serializer_config");
 
 class DebugApi {

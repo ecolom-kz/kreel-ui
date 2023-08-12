@@ -7,7 +7,7 @@ import {Popover} from "bitshares-ui-style-guide";
 import HelpContent from "./HelpContent";
 import AssetName from "./AssetName";
 import Pulsate from "./Pulsate";
-import {ChainStore} from "leedexjs";
+import {ChainStore} from "kreeljs";
 import AssetWrapper from "./AssetWrapper";
 import BindToChainState from "./BindToChainState";
 import ChainTypes from "./ChainTypes";

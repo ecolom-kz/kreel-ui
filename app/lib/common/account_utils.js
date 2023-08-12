@@ -1,4 +1,4 @@
-import {ChainStore} from "leedexjs";
+import {ChainStore} from "kreeljs";
 import utils from "./utils";
 import counterpart from "counterpart";
 import {estimateFee} from "./trxHelper";

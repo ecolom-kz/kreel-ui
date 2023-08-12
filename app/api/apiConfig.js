@@ -1,13 +1,13 @@
 import {getFaucet, getTestFaucet} from "../branding";
 
 export const rudexAPIs = {
-    BASE: "https://gateway.leedex.net/api/rudex_new",
+    BASE: "http://gateway.kreel2.samsonov.net/api/rudex_new",
     COINS_LIST: "/coins",
     NEW_DEPOSIT_ADDRESS: "/simple-api/initiate-trade"
 };
 
 export const bep20rudexAPIs = {
-    BASE: "https://gateway.leedex.net/api/rudex_new_bep20",
+    BASE: "http://gateway.kreel2.samsonov.net/api/rudex_new_bep20",
     COINS_LIST: "/coins",
     NEW_DEPOSIT_ADDRESS: "/simple-api/initiate-trade"
 };
@@ -45,35 +45,36 @@ export const settingsAPIs = {
     DEFAULT_WS_NODE: "wss://fake.automatic-selection.com",
     WS_NODE_LIST: [
         {
-            url: "wss://node0.leedex.net:8980",
-            region: "Western Europe",
-            country: "Germany",
-            location: "Hessen",
-            operator: "Witness: maxirmx",
+            url: "wss://kreel0.samsonov.net:8980",
+            region: "Eastern Europe",
+            country: "Russia",
+            location: "St. Petersburg",
+            operator: "maxirmx",
             contact: "telegram:maxi_rmx"
         },
         {
-            url: "wss://node1.leedex.net:8980",
-            region: "Western Europe",
-            country: "Germany",
-            location: "Hessen",
-            operator: "Witness: maxirmx",
+            url: "wss://kreel1.samsonov.net:8980",
+            region: "Northern Asia",
+            country: "Russia",
+            location: "Novosibirsk",
+            operator: "maxirmx",
             contact: "telegram:maxi_rmx"
         },
         {
-            url: "wss://leedex.net:8980",
-            region: "Western Europe",
-            country: "Germany",
-            location: "Hessen",
-            operator: "Witness: maxirmx",
+            url: "wss://kreel2.samsonov.net:8980",
+            region: "Eastern Europe",
+            country: "Russia",
+            location: "St. Petersburg",
+            operator: "maxirmx",
             contact: "telegram:maxi_rmx"
         }
     ],
     ES_WRAPPER_LIST: [
         {
-            url: "https://leedex.net",
-            region: "Western Europe",
-            country: "Germany",
+            url: "https://kreel2.samsonov.net",
+            region: "Eastern Europe",
+            country: "Russia",
+            location: "St. Petersburg",
             operator: "Witness: maxirmx",
             contact: "telegram:maxi_rmx"
         }

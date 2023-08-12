@@ -1,4 +1,4 @@
-import {Apis} from "leedexjs-ws";
+import {Apis} from "kreeljs-ws";
 
 class Api {
     lookupAccounts(startChar, limit) {

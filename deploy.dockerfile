@@ -9,8 +9,8 @@ RUN apt-get update \
 RUN npm install -g cross-env
 
 # We copy the code from the docker-compose-yml
-CMD mkdir /leedex-ui
-WORKDIR /leedex-ui
+CMD mkdir /kreel-ui
+WORKDIR /kreel-ui
 
 COPY . .
 RUN yarn install --frozen-lockfile

@@ -1,7 +1,7 @@
 import alt from "alt-instance";
 import iDB from "idb-instance";
-import {key} from "leedexjs";
-import {ChainConfig} from "leedexjs-ws";
+import {key} from "kreeljs";
+import {ChainConfig} from "kreeljs-ws";
 import Immutable from "immutable";
 import BaseStore from "stores/BaseStore";
 

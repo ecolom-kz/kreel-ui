@@ -18,7 +18,7 @@ import {routerTransitioner} from "../../routerTransition";
 import LoadingIndicator from "../LoadingIndicator";
 import counterpart from "counterpart";
 import ChoiceModal from "../Modal/ChoiceModal";
-import {ChainStore} from "leedexjs";
+import {ChainStore} from "kreeljs";
 import ifvisible from "ifvisible";
 import {getWalletName} from "branding";
 import {Tooltip} from "bitshares-ui-style-guide";
@@ -83,8 +83,7 @@ class Footer extends React.Component {
     componentDidMount() {
         this.checkNewVersionAvailable.call(this);
 
-        this.downloadLink =
-            "https://github.com/leedex-chain/leedex-ui/releases";
+        this.downloadLink = "https://github.com/kreel-chain/kreel-ui/releases";
 
         let ensure = this._ensureConnectivity.bind(this);
         ifvisible.on("wakeup", function() {
@@ -113,7 +112,7 @@ class Footer extends React.Component {
     checkNewVersionAvailable() {
         if (__ELECTRON__) {
             fetch(
-                "https://api.github.com/repos/leedex-chain/leedex-ui/releases/latest"
+                "https://api.github.com/repos/kreel-chain/kreel-ui/releases/latest"
             )
                 .then(res => {
                     return res.json();
@@ -529,7 +528,7 @@ class Footer extends React.Component {
                                     fontSize: "1em"
                                 }}
                                 className="footer-audit"
-                                href="https://audit.leedex.net"
+                                href="https://audit.kreel.net"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >

@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {Apis} from "leedexjs-ws";
+import {Apis} from "kreeljs-ws";
 import ApplicationApi from "api/ApplicationApi";
 import WalletApi from "api/WalletApi";
 import DebugApi from "api/DebugApi";

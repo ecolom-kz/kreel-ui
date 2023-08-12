@@ -152,7 +152,7 @@ class AccountDepositWithdraw extends React.Component {
         serList.push(
             {
                 name: "COINS (Native Chains)",
-                identifier: "LEEDEX",
+                identifier: "KREEL",
                 template: (
                     <div className="content-block">
                         <div
@@ -292,7 +292,7 @@ class AccountDepositWithdraw extends React.Component {
 
             {
                 name: "Binance Smart Chain (BEP-20 tokens)",
-                identifier: "LEEDEX_BEP20",
+                identifier: "KREEL_BEP20",
                 template: (
                     <div className="content-block">
                         <div
@@ -584,11 +584,11 @@ export default connect(DepositStoreWrapper, {
                             []
                         ),*/
             rudexBackedCoins: GatewayStore.getState().backedCoins.get(
-                "LEEDEX",
+                "KREEL",
                 []
             ),
             rudexBackedCoinsBEP20: GatewayStore.getState().backedCoins.get(
-                "LEEDEX_BEP20",
+                "KREEL_BEP20",
                 []
             ),
             /*            bitsparkBackedCoins: GatewayStore.getState().backedCoins.get(

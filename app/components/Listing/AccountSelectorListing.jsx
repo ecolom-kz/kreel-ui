@@ -11,7 +11,7 @@ import {
     ChainValidation,
     FetchChain,
     FetchChainObjects
-} from "leedexjs";
+} from "kreeljs";
 import ChainTypes from "../Utility/ChainTypes";
 import BindToChainState from "../Utility/BindToChainState";
 import counterpart from "counterpart";

@@ -1,4 +1,4 @@
-import {Apis} from "leedexjs-ws";
+import {Apis} from "kreeljs-ws";
 
 /** This file centralized customization and branding efforts throughout the whole wallet and is meant to facilitate
  *  the process.
@@ -15,7 +15,7 @@ function _isTestnet() {
         //        "39f5e2ede1f8bc1a3a54a7914414e3779e33193f1f5693510e73cb7a87617447"; // just for the record
         " -- no test net --"; // just for the record
     const mainnet =
-        "da4a4872f96da5a9c8cf694c5b8344b5a7a3b24218ad90eba4b148897cf4ed23";
+        "230afd8e06cc690d78c3e37a17bf9e4b19bfd3f15aee2d14f4eb176a8146bf44";
     // treat every other chain as testnet
     return Apis.instance().chain_id !== mainnet;
 }
@@ -25,7 +25,7 @@ function _isTestnet() {
  * @returns {string}
  */
 export function getWalletName() {
-    return "LEEDEX";
+    return "KREEL";
 }
 
 /**
@@ -33,7 +33,7 @@ export function getWalletName() {
  * @returns {string}
  */
 export function getWalletURL() {
-    return "https://leedex.net";
+    return "https://ecolom.samsonov.net";
 }
 
 /**
@@ -43,7 +43,7 @@ export function getWalletURL() {
  */
 export function getFaucet() {
     return {
-        url: "https://leedex.net",
+        url: "https://ecolom.samsonov.net",
         show: true,
         editable: false,
         referrer: "maxirmx"
@@ -64,7 +64,7 @@ export function getTestFaucet() {
  * @returns {*}
  */
 export function getLogo() {
-    return require("assets/logo-is-coming.png").default;
+    return require("assets/logo-ecolom.png").default;
 }
 
 /**
@@ -92,16 +92,18 @@ export function getDefaultLogin() {
  */
 export function getUnits() {
     if (_isTestnet()) {
-        return ["LD_TEST"];
+        return ["KREEL_TEST"];
     }
-    return ["LD", "USD", "LEEDEX.USDT", "LEEDEX.BTC"];
+    return ["KREEL", "USD", "KREEL.USDT", "KREEL.BTC"];
 }
 
 export function getDefaultMarket() {
     if (_isTestnet()) {
         return "USD_TEST";
     }
-    return "LEEDEX.USDT_LD";
+    // [market 0]
+    //    return "KREEL.USDT_KREEL";
+    return "KREEL.USD";
 }
 
 /**
@@ -111,9 +113,9 @@ export function getDefaultMarket() {
  */
 export function getMyMarketsBases() {
     if (_isTestnet()) {
-        return ["LD_TEST"];
+        return ["KREEL_TEST"];
     }
-    return ["LD", "USD", "LEEDEX.BTC", "LEEDEX.USDT"];
+    return ["KREEL", "USD", "KREEL.BTC", "KREEL.USDT"];
 }
 
 /*
@@ -121,16 +123,16 @@ All trusted tokens
  */
 export function get_allTokens() {
     return {
-        nativeTokens: ["LD"], //, "USD", "EUR", "RUB", "CNY", "GOLD", "SILVER"],
-        leedexTokens: [
+        nativeTokens: ["KREEL"], //, "USD", "EUR", "RUB", "CNY", "GOLD", "SILVER"],
+        kreelTokens: [
             //            "DONATE",
             //            "DEXBOT",
-            "LEEDEX.USDT",
-            //            "LEEDEX.ETH",
-            //            "LEEDEX.TRX",
-            //            "LEEDEX.BUSD",
-            //            "LEEDEX.LIME",
-            "LEEDEX.BTC"
+            "KREEL.USDT",
+            //            "KREEL.ETH",
+            //            "KREEL.TRX",
+            //            "KREEL.BUSD",
+            //            "KREEL.LIME",
+            "KREEL.BTC"
         ],
         delistedTokens: [],
         otherTokens: []
@@ -141,7 +143,7 @@ export function get_allTokens() {
     These are the default coins that are displayed with the images
  */
 export function getImageName(symbol) {
-    if (symbol.startsWith("LEEDEX.")) return symbol;
+    if (symbol.startsWith("KREEL.")) return symbol;
     if (
         get_allTokens().nativeTokens.indexOf(symbol) !== -1 ||
         symbol == "DONATE" ||
@@ -162,7 +164,7 @@ export function getImageName(symbol) {
  */
 export function getMyMarketsQuotes(delisted = false) {
     if (_isTestnet()) {
-        return ["LD_TEST"];
+        return ["KREEL_TEST"];
     }
     let tokens = get_allTokens();
     let allTokens = [];
@@ -193,36 +195,36 @@ export function getGroupedMPAsRuDEX() {
  */
 export function getFeaturedMarkets(quotes = []) {
     if (_isTestnet()) {
-        return [["USD", "LD_TEST"]];
+        return [["USD", "KREEL_TEST"]];
     }
     return [
-        //        ["LD", "USD"],
-        //        ["LD", "EUR"],
-        //        ["LD", "RUB"],
-        //        ["LD", "CNY"],
-        //        ["LD", "GOLD"],
-        //        ["LD", "SILVER"],
-        ["LD", "LEEDEX.USDT"],
-        ["LD", "LEEDEX.BTC"],
-        ["LD", "LEEDEX.ETH"],
-        ["LD", "LEEDEX.TRX"],
-        ["LD", "LEEDEX.LIME"],
+        //        ["KREEL", "USD"],
+        //        ["KREEL", "EUR"],
+        //        ["KREEL", "RUB"],
+        //        ["KREEL", "CNY"],
+        //        ["KREEL", "GOLD"],
+        //        ["KREEL", "SILVER"],
+        ["KREEL", "KREEL.USDT"],
+        ["KREEL", "KREEL.BTC"],
+        ["KREEL", "KREEL.ETH"],
+        ["KREEL", "KREEL.TRX"],
+        ["KREEL", "KREEL.LIME"],
 
-        ["LEEDEX.USDT", "LD"],
-        //        ["LEEDEX.USDT", "USD"],
-        //        ["LEEDEX.USDT", "EUR"],
-        //        ["LEEDEX.USDT", "RUB"],
-        //        ["LEEDEX.USDT", "CNY"],
-        //        ["LEEDEX.USDT", "GOLD"],
-        //        ["LEEDEX.USDT", "SILVER"],
-        ["LEEDEX.USDT", "LEEDEX.BTC"],
-        ["LEEDEX.USDT", "LEEDEX.ETH"],
-        ["LEEDEX.USDT", "LEEDEX.TRX"],
-        ["LEEDEX.USDT", "LEEDEX.LIME"],
-        ["LEEDEX.USDT", "LEEDEX.BUSD"],
+        ["KREEL.USDT", "KREEL"],
+        //        ["KREEL.USDT", "USD"],
+        //        ["KREEL.USDT", "EUR"],
+        //        ["KREEL.USDT", "RUB"],
+        //        ["KREEL.USDT", "CNY"],
+        //        ["KREEL.USDT", "GOLD"],
+        //        ["KREEL.USDT", "SILVER"],
+        ["KREEL.USDT", "KREEL.BTC"],
+        ["KREEL.USDT", "KREEL.ETH"],
+        ["KREEL.USDT", "KREEL.TRX"],
+        ["KREEL.USDT", "KREEL.LIME"],
+        ["KREEL.USDT", "KREEL.BUSD"],
 
-        ["LEEDEX.BTC", "LD"],
-        ["LEEDEX.BTC", "LEEDEX.USDT"]
+        ["KREEL.BTC", "KREEL"],
+        ["KREEL.BTC", "KREEL.USDT"]
     ].filter(a => {
         if (!quotes.length) return true;
         return quotes.indexOf(a[0]) !== -1;
@@ -238,7 +240,7 @@ export function getAssetNamespaces() {
     if (_isTestnet()) {
         return [];
     }
-    return ["LEEDEX."];
+    return ["KREEL."];
 }
 
 /**
@@ -247,7 +249,7 @@ export function getAssetNamespaces() {
  */
 export function getAssetHideNamespaces() {
     // e..g "RUDEX.", "gp"
-    return ["LEEDEX."];
+    return ["KREEL."];
 }
 
 /**
@@ -279,13 +281,13 @@ export function getConfigurationAsset() {
     if (_isTestnet()) {
         assetSymbol = "NOTIFICATIONS";
     } else {
-        assetSymbol = "LEEDEX";
+        assetSymbol = "KREEL";
     }
     // explanation will be parsed out of the asset description (via split)
     return {
         symbol: assetSymbol,
         explanation:
-            "This asset is used for decentralized configuration of the LEEDEX UI placed under https://leedex.net/."
+            "This asset is used for decentralized configuration of the KREEL UI placed under http://kreel2.samsonov.net/."
     };
 }
 

@@ -1,8 +1,8 @@
 import React from "react";
 import "./ListingPage.css";
 
-import {Apis} from "leedexjs-ws";
-import {FetchChain} from "leedexjs";
+import {Apis} from "kreeljs-ws";
+import {FetchChain} from "kreeljs";
 import counterpart from "counterpart";
 
 import CoinCardListing from "./CoinCardListing";
@@ -36,7 +36,7 @@ class ListingPage extends React.Component {
                     "https://rudex.freshdesk.com/support/solutions/articles/35000138245-gateway-service-agreement"
             },
             donateTokenName: "DONATE",
-            donateMarket: "DONATE_LEEDEX.USDT"
+            donateMarket: "DONATE_KREEL.USDT"
         };
     }
 

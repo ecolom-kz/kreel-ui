@@ -1,8 +1,8 @@
 {
-  "name": "leedex-ui",
-  "version": "0.1.4",
-  "description": "Web wallet interface for the LeeDEX financial blockchain.",
-  "homepage": "https://github.com/leedex-chain/leedex-ui",
+  "name": "kreel-ui",
+  "version": "0.0.1",
+  "description": "Web wallet interface for ecolom.kz Decentralized Recyclables Exchange.",
+  "homepage": "https://github.com/ecolom-kz/kreel-ui",
   "author": "maxirmx <maxirmx@gmail.com>",
   "contributors": [
     "maxirmx <maxirmx@gmail.com>"
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/leedex-chain/leedex-ui"
+    "url": "git://github.com/ecolom-kz/kreel-ui"
   },
   "main": "build/electron/index.js",
   "scripts": {
@@ -86,8 +86,8 @@
   },
   "browsersList": "electron 1.7",
   "build": {
-    "productName": "LEEDEX",
-    "appId": "net.leedex",
+    "productName": "Kazakhstan Recyclables Exchange EcoLom.kz",
+    "appId": "kz.ecolom",
     "files": [
       "build/electron",
       "!node_modules"
@@ -131,7 +131,7 @@
         "AppImage",
         "snap"
       ],
-      "synopsis": "LEEDEX: Cryptocurrency and Decentralized Exchange"
+      "synopsis": "ecolom.kz: Decentralized Recyclables Exchange"
     },
     "directories": {
       "buildResources": "resources",
@@ -145,7 +145,6 @@
     "bignumber.js": "^9.0.1",
     "bitshares-report": "https://github.com/graphene-blockchain/graphene-report.git",
     "bitshares-ui-style-guide": "https://github.com/graphene-blockchain/graphene-ui-style-guide.git",
-    "leedexjs": "6.1.2",
     "browser-locale": "^1.0.3",
     "classnames": "^2.2.1",
     "constants-browserify": "^1.0.0",
@@ -170,6 +169,7 @@
     "jsonschema": "^1.2.4",
     "jspdf": "^2.3.1",
     "jspdf-autotable": "^3.1.1",
+    "kreeljs": "0.0.1",
     "lodash-es": "^4.17.10",
     "lzma": "2.1.6",
     "moment": "^2.29.2",

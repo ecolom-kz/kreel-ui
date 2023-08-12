@@ -248,7 +248,7 @@ class MarketCard extends React.Component {
 
             let symbol = asset.get("symbol");
 
-            if (symbol.startsWith("LEEDEX.")) return symbol;
+            if (symbol.startsWith("KREEL.")) return symbol;
 
             if (
                 get_allTokens().nativeTokens.indexOf(symbol) !== -1 ||
@@ -403,7 +403,9 @@ MarketCard = BindToChainState(MarketCard);
 
 class MarketCardWrapper extends React.Component {
     render() {
-        return <MarketCard {...this.props} />;
+        //        return <MarketCard {...this.props} />;
+        // [market 0]
+        return <div />;
     }
 }
 

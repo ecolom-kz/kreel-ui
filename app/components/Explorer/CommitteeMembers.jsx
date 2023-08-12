@@ -3,7 +3,7 @@ import React from "react";
 import Immutable from "immutable";
 import ChainTypes from "../Utility/ChainTypes";
 import BindToChainState from "../Utility/BindToChainState";
-import {ChainStore} from "leedexjs";
+import {ChainStore} from "kreeljs";
 import {connect} from "alt-react";
 import SettingsActions from "actions/SettingsActions";
 import FormattedAsset from "../Utility/FormattedAsset";

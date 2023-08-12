@@ -3,7 +3,7 @@ import MarginPosition from "./MarginPosition";
 import ChainTypes from "../Utility/ChainTypes";
 import BindToChainState from "../Utility/BindToChainState";
 import AssetWrapper from "../Utility/AssetWrapper";
-import {ChainStore} from "leedexjs";
+import {ChainStore} from "kreeljs";
 import Translate from "react-translate-component";
 import counterpart from "counterpart";
 import utils from "common/utils";

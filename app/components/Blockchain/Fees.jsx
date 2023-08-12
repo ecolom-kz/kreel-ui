@@ -8,7 +8,7 @@ import ChainTypes from "../Utility/ChainTypes";
 import BindToChainState from "../Utility/BindToChainState";
 import FormattedAsset from "../Utility/FormattedAsset";
 import {EquivalentValueComponent} from "../Utility/EquivalentValueComponent";
-import {ChainStore, ChainTypes as grapheneChainTypes} from "leedexjs";
+import {ChainStore, ChainTypes as grapheneChainTypes} from "kreeljs";
 import {Card} from "bitshares-ui-style-guide";
 const {operations} = grapheneChainTypes;
 let ops = Object.keys(operations);
@@ -139,7 +139,8 @@ class FeeGroup extends React.Component {
                                 <td>{feeTypes[key]}</td>
                                 <td style={{textAlign: "right"}}>
                                     {assetAmount}
-                                    {amount !== 0 && preferredUnit !== "LD" ? (
+                                    {amount !== 0 &&
+                                    preferredUnit !== "KREEL" ? (
                                         <span>
                                             &nbsp;/&nbsp;
                                             {equivalentAmount}
@@ -150,7 +151,7 @@ class FeeGroup extends React.Component {
                                     {feeIdx !== 8 ? assetAmountLTM : null}
                                     {feeIdx !== 8 &&
                                     amount !== 0 &&
-                                    preferredUnit !== "LD" ? (
+                                    preferredUnit !== "KREEL" ? (
                                         <span>
                                             &nbsp;/&nbsp;
                                             {equivalentAmountLTM}
@@ -173,7 +174,7 @@ class FeeGroup extends React.Component {
                             </td>
                             <td style={{textAlign: "right"}}>
                                 {assetAmountLTM}
-                                {amount !== 0 && preferredUnit !== "LD" ? (
+                                {amount !== 0 && preferredUnit !== "KREEL" ? (
                                     <span>
                                         &nbsp;/&nbsp;
                                         {equivalentAmountLTM}

@@ -1,6 +1,6 @@
 import React from "react";
 import Translate from "react-translate-component";
-import {ChainStore, key} from "leedexjs";
+import {ChainStore, key} from "kreeljs";
 import AmountSelector from "../Utility/AmountSelectorStyleGuide";
 import cnames from "classnames";
 import AccountSelector from "../Account/AccountSelector";

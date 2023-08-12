@@ -2,8 +2,8 @@ import WalletDb from "stores/WalletDb";
 import WalletUnlockActions from "actions/WalletUnlockActions";
 import CachedPropertyActions from "actions/CachedPropertyActions";
 import ApplicationApi from "api/ApplicationApi";
-import {TransactionBuilder, FetchChain} from "leedexjs";
-import {Apis} from "leedexjs-ws";
+import {TransactionBuilder, FetchChain} from "kreeljs";
+import {Apis} from "kreeljs-ws";
 import alt from "alt-instance";
 import SettingsStore from "stores/SettingsStore";
 

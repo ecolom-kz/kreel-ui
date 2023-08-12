@@ -1,5 +1,5 @@
-import {Apis, Manager} from "leedexjs-ws";
-import {ChainStore} from "leedexjs";
+import {Apis, Manager} from "kreeljs-ws";
+import {ChainStore} from "kreeljs";
 import hirestime from "hirestime";
 
 // Stores
@@ -806,7 +806,7 @@ export default routerTransitioner.willTransitionTo.bind(routerTransitioner);
  */
 class Pinger {
     /**
-     * @param connectionManager leedexjs connectionmanager
+     * @param connectionManager kreeljs connectionmanager
      * @param updateLatencies callback to update the settings object
      * @param updateTransitionTarget callback to update the message displayed to the user
      * @param pingAll if true, resolve after pinging all

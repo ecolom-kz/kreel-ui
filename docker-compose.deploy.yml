@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
     web-wallet:
-        image: ghcr.io/leedex-chain/ui:latest-main
+        image: ghcr.io/kreel-chain/ui:latest-main
         restart: always
         ports:
             - "8080:80"

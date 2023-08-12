@@ -1,7 +1,7 @@
 import Immutable from "immutable";
 import alt from "alt-instance";
 import BlockchainActions from "actions/BlockchainActions";
-import {ChainStore} from "leedexjs";
+import {ChainStore} from "kreeljs";
 // import {Block} from "./tcomb_structs";
 
 class BlockchainStore {

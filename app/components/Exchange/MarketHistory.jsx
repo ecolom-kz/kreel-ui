@@ -5,7 +5,7 @@ import Ps from "perfect-scrollbar";
 import SettingsActions from "actions/SettingsActions";
 import SettingsStore from "stores/SettingsStore";
 import {connect} from "alt-react";
-import {ChainTypes as grapheneChainTypes} from "leedexjs";
+import {ChainTypes as grapheneChainTypes} from "kreeljs";
 const {operations} = grapheneChainTypes;
 import ReactTooltip from "react-tooltip";
 import {FillOrder} from "common/MarketClasses";

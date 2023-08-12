@@ -78,11 +78,11 @@ const _isEnabled = gatewayKey => {
 };
 
 export const availableGateways = {
-    LEEDEX: {
-        id: "LEEDEX",
+    KREEL: {
+        id: "KREEL",
         name: "COINS (Native Chains)",
         baseAPI: rudexAPIs,
-        isEnabled: _isEnabled("LEEDEX"),
+        isEnabled: _isEnabled("KREEL"),
         isSimple: true,
         selected: false,
         simpleAssetGateway: true,
@@ -96,14 +96,14 @@ export const availableGateways = {
             enabled: false,
             selected: false
         },
-        landing: "https://leedex.net/",
-        wallet: "https://market.leedex.net/"
+        landing: "http://kreel2.samsonov.net/",
+        wallet: "https://market.kreel2.samsonov.net/"
     },
-    LEEDEX_BEP20: {
-        id: "LEEDEX_BEP20",
+    KREEL_BEP20: {
+        id: "KREEL_BEP20",
         name: "Binance Smart Chain (BEP-20 tokens)",
         baseAPI: bep20rudexAPIs,
-        isEnabled: _isEnabled("LEEDEX_BEP20"),
+        isEnabled: _isEnabled("KREEL_BEP20"),
         isSimple: true,
         selected: false,
         simpleAssetGateway: true,
@@ -117,8 +117,8 @@ export const availableGateways = {
             enabled: false,
             selected: false
         },
-        landing: "https://leedex.net/",
-        wallet: "https://market.leedex.net/"
+        landing: "http://kreel2.samsonov.net/",
+        wallet: "http://market.kreel2.samsonov.net/"
     }
 };
 

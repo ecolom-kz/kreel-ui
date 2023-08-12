@@ -1,6 +1,6 @@
 import React from "react";
 import Translate from "react-translate-component";
-import {ChainStore} from "leedexjs";
+import {ChainStore} from "kreeljs";
 import ChainTypes from "components/Utility/ChainTypes";
 import BindToChainState from "components/Utility/BindToChainState";
 import DisableCopyText from "../DisableCopyText";
@@ -236,7 +236,7 @@ class RuDexGatewayDepositRequest extends React.Component {
         let clipboardText = "";
         let memoText;
         let withdraw_memo_prefix;
-        let currentGateway = "LEEDEX";
+        let currentGateway = "KREEL";
         if (
             !!availableGateways[currentGateway].simpleAssetGateway &&
             this.props.deposit_account

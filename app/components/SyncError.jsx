@@ -4,7 +4,7 @@ import BlockchainStore from "stores/BlockchainStore";
 import SettingsStore from "stores/SettingsStore";
 import Translate from "react-translate-component";
 import SettingsActions from "actions/SettingsActions";
-import {Apis} from "leedexjs-ws";
+import {Apis} from "kreeljs-ws";
 import Icon from "./Icon/Icon";
 import WebsocketAddModal from "./Settings/WebsocketAddModal";
 import counterpart from "counterpart";

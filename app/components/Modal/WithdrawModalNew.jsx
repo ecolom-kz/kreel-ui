@@ -39,7 +39,7 @@ import {
 import FeeAssetSelector from "components/Utility/FeeAssetSelector";
 import {checkBalance} from "common/trxHelper";
 import AccountSelector from "components/Account/AccountSelector";
-import {ChainStore} from "leedexjs";
+import {ChainStore} from "kreeljs";
 const gatewayBoolCheck = "withdrawalAllowed";
 
 import {getAssetAndGateway, getIntermediateAccount} from "common/gatewayUtils";
@@ -318,7 +318,7 @@ class WithdrawModalNew extends React.Component {
         let isBTS = false;
         if (coreAsset) {
             if (selectedAsset == coreAsset.get("symbol")) isBTS = true;
-        } else if (selectedAsset == "LD") {
+        } else if (selectedAsset == "KREEL") {
             isBTS = true;
         }
 
@@ -449,7 +449,7 @@ class WithdrawModalNew extends React.Component {
 
         let stateObj = {};
 
-        if (value == "LD") {
+        if (value == "KREEL") {
             stateObj = {isBTS: true};
         }
 

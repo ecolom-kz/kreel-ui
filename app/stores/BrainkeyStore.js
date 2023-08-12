@@ -1,6 +1,6 @@
 import alt from "alt-instance";
 import Immutable from "immutable";
-import {ChainStore, key} from "leedexjs";
+import {ChainStore, key} from "kreeljs";
 import BaseStore from "stores/BaseStore";
 import BrainkeyActions from "actions/BrainkeyActions";
 

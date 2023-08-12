@@ -1,5 +1,5 @@
 import {hasGatewayPrefix} from "common/gatewayUtils";
-import {ChainStore} from "leedexjs";
+import {ChainStore} from "kreeljs";
 
 function lookupAssets(value, gatewayAssets = false, getAssetList, setState) {
     if (!value && value !== "") return;

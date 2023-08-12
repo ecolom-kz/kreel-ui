@@ -7,7 +7,7 @@ import MarketStatsCheck from "./MarketStatsCheck";
 import MarketsStore from "stores/MarketsStore";
 import MarketUtils from "common/market_utils";
 import AssetWrapper from "./AssetWrapper";
-import {ChainStore} from "leedexjs";
+import {ChainStore} from "kreeljs";
 
 const getFinalPrice = function(
     fromAsset,

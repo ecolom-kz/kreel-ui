@@ -18,7 +18,7 @@ const onGatewayTimeout = (dispatch, gateway) => {
 
 class GatewayActions {
     fetchCoins({
-        backer = "LEEDEX",
+        backer = "KREEL",
         url = undefined,
         urlBridge = undefined,
         urlWallets = undefined
@@ -64,7 +64,7 @@ class GatewayActions {
         }
     }
 
-    fetchCoinsSimple({backer = "LEEDEX", url = undefined} = {}) {
+    fetchCoinsSimple({backer = "KREEL", url = undefined} = {}) {
         if (!inProgress["fetchCoinsSimple_" + backer]) {
             inProgress["fetchCoinsSimple_" + backer] = true;
             return dispatch => {

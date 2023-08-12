@@ -73,7 +73,8 @@ module.exports = function(env) {
         new HtmlWebpackPlugin({
             template: "!!handlebars-loader!app/assets/index.hbs",
             templateParameters: {
-                title: "LEEDEX " + __VERSION__,
+                title:
+                    "Kazakhstan Recyclables Exchange EcoLom.kz" + __VERSION__,
                 INCLUDE_BASE: !!env.prod && !env.hash,
                 PRODUCTION: !!env.prod,
                 ELECTRON: !!env.electron
@@ -88,7 +89,6 @@ module.exports = function(env) {
             __UI_API__: JSON.stringify(env.apiUrl),
             __TESTNET__: !!env.testnet,
             __DEPRECATED__: !!env.deprecated,
-            DEFAULT_SYMBOL: "LD",
             __GIT_BRANCH__: JSON.stringify(git.branch()),
             __PERFORMANCE_DEVTOOL__: !!env.perf_dev
         }),
@@ -209,7 +209,7 @@ module.exports = function(env) {
     var alias = {
         sanitize$: "xss",
         moment$: path.resolve(root_dir, "node_modules/moment/moment.js"),
-        leedexjs$: path.resolve(root_dir, "node_modules/leedexjs/"),
+        kreeljs$: path.resolve(root_dir, "node_modules/kreeljs/"),
         "bitshares-ui-style-guide$": path.resolve(
             root_dir,
             "node_modules/bitshares-ui-style-guide/dist/main.js"

@@ -5,7 +5,7 @@ import AssetWrapper from "./AssetWrapper";
 import counterpart from "counterpart";
 import PropTypes from "prop-types";
 import {Popover} from "bitshares-ui-style-guide";
-import {ChainStore, FetchChainObjects} from "leedexjs";
+import {ChainStore, FetchChainObjects} from "kreeljs";
 import GatewayStore from "../../stores/GatewayStore";
 import {getAssetAndGateway} from "../../lib/common/gatewayUtils";
 import {Icon, Tooltip} from "bitshares-ui-style-guide";
@@ -186,7 +186,7 @@ class AssetName extends React.Component {
                 return assetDiv;
             } else {
                 let desc = null;
-                if (replacedName == "LD") {
+                if (replacedName == "KREEL") {
                     desc = {main: counterpart.translate("assets.BTS")};
                 } else {
                     desc = asset_utils.parseDescription(

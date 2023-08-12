@@ -1,4 +1,4 @@
-import {ChainConfig} from "leedexjs-ws";
+import {ChainConfig} from "kreeljs-ws";
 
 export function backupName(walletName, date = new Date()) {
     let name = walletName;

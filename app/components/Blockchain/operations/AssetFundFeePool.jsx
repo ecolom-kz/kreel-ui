@@ -1,6 +1,6 @@
 import React from "react";
 import Translate from "react-translate-component";
-import {ChainStore} from "leedexjs";
+import {ChainStore} from "kreeljs";
 import FormattedAsset from "../../Utility/FormattedAsset";
 import TranslateWithLinks from "../../Utility/TranslateWithLinks";
 

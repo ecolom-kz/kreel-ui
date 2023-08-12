@@ -1,4 +1,4 @@
-import {Apis} from "leedexjs-ws";
+import {Apis} from "kreeljs-ws";
 import GatewayActions from "actions/GatewayActions";
 import {
     availableBridges,
@@ -70,7 +70,7 @@ export function getIntermediateAccount(symbol, backedCoins) {
     let {selectedGateway} = getAssetAndGateway(symbol);
     let coin = getBackedCoin(symbol, backedCoins);
     if (!coin) return undefined;
-    else if (selectedGateway === "LEEDEX") return coin.issuerId || coin.issuer;
+    else if (selectedGateway === "KREEL") return coin.issuerId || coin.issuer;
     else return coin.intermediateAccount || coin.issuer;
 }
 

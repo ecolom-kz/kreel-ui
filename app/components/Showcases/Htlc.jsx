@@ -10,7 +10,7 @@ import {
     Tooltip
 } from "bitshares-ui-style-guide";
 import counterpart from "counterpart";
-import {ChainStore, FetchChainObjects} from "leedexjs";
+import {ChainStore, FetchChainObjects} from "kreeljs";
 import utils from "common/utils";
 import HtlcModal from "../Modal/HtlcModal";
 import LinkToAssetById from "../Utility/LinkToAssetById";

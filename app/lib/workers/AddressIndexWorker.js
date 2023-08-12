@@ -1,4 +1,4 @@
-import {key} from "leedexjs";
+import {key} from "kreeljs";
 
 onmessage = function(event) {
     try {

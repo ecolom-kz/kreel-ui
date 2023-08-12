@@ -1,6 +1,6 @@
 import utils from "common/utils";
 import Immutable from "immutable";
-import {ChainTypes as grapheneChainTypes, ChainValidation} from "leedexjs";
+import {ChainTypes as grapheneChainTypes, ChainValidation} from "kreeljs";
 const {object_type} = grapheneChainTypes;
 
 function createChainableTypeChecker(validate) {

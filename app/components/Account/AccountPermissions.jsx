@@ -6,7 +6,7 @@ import utils from "common/utils";
 import accountUtils from "common/account_utils";
 import {createPaperWalletAsPDF} from "common/paperWallet";
 import ApplicationApi from "api/ApplicationApi";
-import {PublicKey} from "leedexjs";
+import {PublicKey} from "kreeljs";
 import AccountPermissionsList from "./AccountPermissionsList";
 import AccountPermissionsMigrate from "./AccountPermissionsMigrate";
 import PubKeyInput from "../Forms/PubKeyInput";

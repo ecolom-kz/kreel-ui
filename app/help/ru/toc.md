@@ -27,4 +27,4 @@
     - [PercentUP ](bots/percent-up.md)
 - [Короткая продажа gpAssets](dex/shorting.md)
 - [Шлюзы](gateways/introduction.md)
-    - [Rudex](gateways/leedex.md)
+    - [Rudex](gateways/kreel.md)

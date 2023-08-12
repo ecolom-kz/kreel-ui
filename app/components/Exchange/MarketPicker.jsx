@@ -1,5 +1,5 @@
 import {connect} from "alt-react";
-import {ChainValidation} from "leedexjs";
+import {ChainValidation} from "kreeljs";
 import counterpart from "counterpart";
 import {debounce} from "lodash-es";
 import React, {Component} from "react";

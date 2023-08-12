@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import counterpart from "counterpart";
 import Translate from "react-translate-component";
 import QRCode from "qrcode.react";
-import {Aes} from "leedexjs";
+import {Aes} from "kreeljs";
 import {Modal, Button} from "bitshares-ui-style-guide";
 
 class QrcodeModal extends React.Component {

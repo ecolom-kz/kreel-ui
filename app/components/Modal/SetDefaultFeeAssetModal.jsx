@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import counterpart from "counterpart";
 import Translate from "react-translate-component";
 import SettingsActions from "actions/SettingsActions";
-import {ChainStore} from "leedexjs";
+import {ChainStore} from "kreeljs";
 import {connect} from "alt-react";
 import {Link} from "react-router-dom";
 import {Table, Button, Radio, Modal, Checkbox} from "bitshares-ui-style-guide";
@@ -93,8 +93,8 @@ class SetDefaultFeeAssetModal extends React.Component {
 
     _getColumns() {
         const symbolSorter = (a, b) => {
-            if (a.asset == "LD" || b.asset == "LD") {
-                return a.asset == "LD" ? 1 : -1;
+            if (a.asset == "KREEL" || b.asset == "KREEL") {
+                return a.asset == "KREEL" ? 1 : -1;
             } else if (
                 ["USD", "CNY", "EUR", "RUB"].includes(a.asset) !==
                 ["USD", "CNY", "EUR", "RUB"].includes(b.asset)

@@ -1,4 +1,4 @@
-.leedex-bridge select.native-coin-types {
+.kreel-bridge select.native-coin-types {
     width: 11em;
     margin: 0 5px !important;
     display: inline;
@@ -9,7 +9,7 @@
     background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2232%22%20height%3D%2224%22%20viewBox%3D%220%200%2032%2024%22%3E%3Cpath%20style%3D%22fill%3A%20%23555%22%20d%3D%22M0%200h32L16%2024%22/%3E%3C/svg%3E");
 }
 
-.leedex-bridge select.external-coin-types {
+.kreel-bridge select.external-coin-types {
     width: 11em;
     margin: 0 5px !important;
     display: inline;
@@ -20,12 +20,12 @@
     background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2232%22%20height%3D%2224%22%20viewBox%3D%220%200%2032%2024%22%3E%3Cpath%20style%3D%22fill%3A%20%23555%22%20d%3D%22M0%200h32L16%2024%22/%3E%3C/svg%3E");
 }
 
-.leedex-bridge select option {
+.kreel-bridge select option {
     //color: #000;
     padding-bottom: 5px;
 }
 
-.leedex-bridge input {
+.kreel-bridge input {
     width: 9em;
     display: inline;
     color: inherit;
@@ -38,20 +38,20 @@
     margin: 0 5px !important;
 }
 
-.leedex-bridge .deposit-limit {
+.kreel-bridge .deposit-limit {
     color: #ababab;
     line-height: 150%;
 }
 
-.leedex-with-memo {
+.kreel-with-memo {
     color: #ababab;
 }
 
-.leedex-position-options {
+.kreel-position-options {
     position: relative;
 }
 
-.leedex-position-options .leedex-options {
+.kreel-position-options .kreel-options {
     width: 100%;
     height: auto;
     max-height: 250px;
@@ -63,11 +63,11 @@
     overflow: auto;
 }
 
-.leedex-position-options .leedex-disabled-options {
+.kreel-position-options .kreel-disabled-options {
     display: none;
 }
 
-.leedex-position-options .leedex-options a {
+.kreel-position-options .kreel-options a {
     display: block;
     color: black;
     padding: 1px;
@@ -76,12 +76,12 @@
     padding-top: 3px;
 }
 
-.leedex-position-options .leedex-options a:hover {
+.kreel-position-options .kreel-options a:hover {
     color: #fff;
     background-color: #3399ff;
 }
 
-.leedex-select-dropdown span {
+.kreel-select-dropdown span {
     width: 38px;
     color: black;
     background: #eeeeee;

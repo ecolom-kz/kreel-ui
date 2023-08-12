@@ -1,5 +1,5 @@
 import React from "react";
-import {ChainStore} from "leedexjs";
+import {ChainStore} from "kreeljs";
 import AccountSelector from "../Account/AccountSelector";
 import AssetSelect from "../Utility/AssetSelect";
 import {compress} from "lzma";
@@ -28,7 +28,7 @@ class InvoiceRequest extends React.Component {
             invoiceData: null,
             recipient_name: null,
             recipient_name_account: null,
-            currency: "LD",
+            currency: "KREEL",
             defaultAssets: get_allTokens().nativeTokens
         };
     }

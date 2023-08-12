@@ -1,5 +1,5 @@
 import React from "react";
-import {ChainStore} from "leedexjs";
+import {ChainStore} from "kreeljs";
 import AccountStore from "stores/AccountStore";
 import NotificationStore from "stores/NotificationStore";
 import {withRouter} from "react-router-dom";
@@ -205,7 +205,7 @@ const Listing = Loadable({
 const Volume_ranking = Loadable({
     loader: () =>
         import(
-            /* webpackChunkName: "QuickTrade" */ "./components/DashboardLEEDEX/Dashboard"
+            /* webpackChunkName: "QuickTrade" */ "./components/DashboardKREEL/Dashboard"
         ),
     loading: LoadingIndicator
 });

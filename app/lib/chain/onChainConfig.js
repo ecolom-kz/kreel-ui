@@ -1,4 +1,4 @@
-import {FetchChain} from "leedexjs";
+import {FetchChain} from "kreeljs";
 import {getConfigurationAsset} from "branding";
 import asset_utils from "common/asset_utils";
 

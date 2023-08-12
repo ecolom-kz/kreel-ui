@@ -2,7 +2,7 @@ import React from "react";
 import Translate from "react-translate-component";
 import MarketCard from "./MarketCard";
 import utils from "common/utils";
-import {Apis} from "leedexjs-ws";
+import {Apis} from "kreeljs-ws";
 import LoadingIndicator from "../LoadingIndicator";
 import SettingsStore from "stores/SettingsStore";
 import {connect} from "alt-react";
@@ -12,7 +12,7 @@ import counterpart from "counterpart";
 
 import {getMyMarketsQuotes, getFeaturedMarkets} from "branding";
 
-import "./DashboardLEEDEX.css";
+import "./DashboardKREEL.css";
 
 class Dashboard extends React.Component {
     constructor(props) {
@@ -101,12 +101,12 @@ class Dashboard extends React.Component {
         let marketStats1 = allMarketStats.get(`${quote}_${base}`);
         let volume_usdt = 0;
 
-        if (marketStats1 && quote == "LEEDEX.USDT") {
+        if (marketStats1 && quote == "KREEL.USDT") {
             volume_usdt = marketStats1.volumeQuote * 1;
         } else {
             try {
                 let marketStats_to_USDT = allMarketStats.get(
-                    `LEEDEX.USDT_${quote}`
+                    `KREEL.USDT_${quote}`
                 );
 
                 let price;
@@ -144,13 +144,13 @@ class Dashboard extends React.Component {
 
             if (res) {
                 //Not in 2nd place
-                if (pair[0] === "LEEDEX.USDT") {
+                if (pair[0] === "KREEL.USDT") {
                     return [pair[0], pair[1], 0];
                 }
                 return [pair[1], pair[0], 0];
             } else {
                 //Not in 2nd place
-                if (pair[0] === "LEEDEX.USDT") {
+                if (pair[0] === "KREEL.USDT") {
                     return [pair[0], pair[1], 0];
                 }
                 return [pair[0], pair[1], 0];

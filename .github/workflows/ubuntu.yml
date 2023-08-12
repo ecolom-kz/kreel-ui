@@ -49,14 +49,14 @@ jobs:
 
             - name: Package binary into archive
               run: |
-                  tar -czvf leedex-ui.tgz site
+                  tar -czvf kreel-ui.tgz site
 
             - name: Calculate SHA256 hash
               run: |
-                  sha256sum leedex-ui.tgz | cut -d ' ' -f1 > leedex-ui.tgz.sha256.txt
+                  sha256sum kreel-ui.tgz | cut -d ' ' -f1 > kreel-ui.tgz.sha256.txt
 
             - uses: softprops/action-gh-release@v1
               with:
                   files: |
-                      leedex-ui.tgz
-                      leedex-ui.tgz.sha256.txt
+                      kreel-ui.tgz
+                      kreel-ui.tgz.sha256.txt

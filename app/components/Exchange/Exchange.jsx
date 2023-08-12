@@ -1,5 +1,5 @@
-import {Apis} from "leedexjs-ws";
-import {ChainStore, FetchChain} from "leedexjs";
+import {Apis} from "kreeljs-ws";
+import {ChainStore, FetchChain} from "kreeljs";
 import {
     Tabs,
     Collapse,

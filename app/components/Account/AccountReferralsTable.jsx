@@ -2,7 +2,7 @@ import {connect} from "alt-react";
 import React from "react";
 import {Link} from "react-router-dom";
 import Translate from "react-translate-component";
-import {ChainStore, FetchChain} from "leedexjs";
+import {ChainStore, FetchChain} from "kreeljs";
 import ChainTypes from "../Utility/ChainTypes";
 import AccountStore from "stores/AccountStore";
 import BindToChainState from "../Utility/BindToChainState";

@@ -1,5 +1,5 @@
 import MarketsStore from "stores/MarketsStore";
-import {FetchChain} from "leedexjs";
+import {FetchChain} from "kreeljs";
 import moment from "moment-timezone";
 import MarketsActions from "actions/MarketsActions";
 import {getGatewayName} from "common/gatewayUtils";
@@ -145,9 +145,9 @@ class DataFeed {
             callback({
                 exchanges: [
                     {
-                        value: "LEEDEX.",
-                        name: "LEEDEX",
-                        desc: "LEEDEX Gateway"
+                        value: "KREEL.",
+                        name: "KREEL",
+                        desc: "KREEL Gateway"
                     }
                 ],
                 symbols_types: [],

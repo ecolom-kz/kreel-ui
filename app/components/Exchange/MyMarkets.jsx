@@ -18,7 +18,7 @@ import {debounce} from "lodash-es";
 import AssetSelector from "../Utility/AssetSelector";
 import counterpart from "counterpart";
 import LoadingIndicator from "../LoadingIndicator";
-import {ChainValidation, ChainStore} from "leedexjs";
+import {ChainValidation, ChainStore} from "kreeljs";
 import debounceRender from "react-debounce-render";
 import ZfApi from "react-foundation-apps/src/utils/foundation-api";
 import {getPossibleGatewayPrefixes, gatewayPrefixes} from "common/gateways";
@@ -336,8 +336,8 @@ class MyMarkets extends React.Component {
             lookupBase: null,
             inputValue: "",
             minWidth: "100%",
-            findBaseInput: "LD",
-            activeFindBase: "LD"
+            findBaseInput: "KREEL",
+            activeFindBase: "KREEL"
         };
 
         this._setMinWidth = this._setMinWidth.bind(this);
@@ -354,7 +354,7 @@ class MyMarkets extends React.Component {
             nextState.activeTab === "find-market" &&
             !nextProps.searchAssets.size
         ) {
-            this._lookupAssets("LEEDEX.", true);
+            this._lookupAssets("KREEL.", true);
         }
 
         if (this.state.activeTab !== nextState.activeTab) {
@@ -419,7 +419,7 @@ class MyMarkets extends React.Component {
         this._setMinWidth();
 
         if (this.state.activeTab === "find-market") {
-            this._lookupAssets("LEEDEX.", true);
+            this._lookupAssets("KREEL.", true);
         }
 
         if (this.state.activeTab !== this.props.activeTab) {
@@ -748,7 +748,7 @@ class MyMarkets extends React.Component {
                             if (m.quote === m.base) return null;
                             let newID = `${m.quote}_${possibleGatewayAssetName}`;
                             if (activeMarkets.has(newID)) return null;
-                            if (possibleGatewayAssetName == "LEEDEX.RUBLE")
+                            if (possibleGatewayAssetName == "KREEL.RUBLE")
                                 return null;
                             return {
                                 base: possibleGatewayAssetName,
@@ -1102,7 +1102,7 @@ class MyMarkets extends React.Component {
                                           active: activeMarketTab === index
                                       })}
                                   >
-                                      {base.replace("LEEDEX.", "")}
+                                      {base.replace("KREEL.", "")}
                                   </li>
                               );
                           })}

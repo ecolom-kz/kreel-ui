@@ -1,5 +1,5 @@
 require("babel-polyfill");
-import {Aes} from "leedexjs";
+import {Aes} from "kreeljs";
 
 onmessage = function(event) {
     try {

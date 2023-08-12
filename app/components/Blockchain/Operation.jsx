@@ -10,7 +10,7 @@ import LinkToAccountById from "../Utility/LinkToAccountById";
 import LinkToAssetById from "../Utility/LinkToAssetById";
 import BindToChainState from "../Utility/BindToChainState";
 import ChainTypes from "../Utility/ChainTypes";
-import {ChainStore, ChainTypes as grapheneChainTypes} from "leedexjs";
+import {ChainStore, ChainTypes as grapheneChainTypes} from "kreeljs";
 import {connect} from "alt-react";
 import SettingsStore from "stores/SettingsStore";
 import PropTypes from "prop-types";

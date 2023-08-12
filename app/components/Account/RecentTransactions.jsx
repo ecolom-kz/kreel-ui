@@ -9,7 +9,7 @@ import {
     ChainTypes as grapheneChainTypes,
     FetchChain,
     ChainStore
-} from "leedexjs";
+} from "kreeljs";
 //import ps from "perfect-scrollbar";
 import counterpart from "counterpart";
 import Icon from "../Icon/Icon";

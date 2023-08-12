@@ -1,12 +1,12 @@
 import alt from "alt-instance";
-import {Apis} from "leedexjs-ws";
+import {Apis} from "kreeljs-ws";
 import utils from "common/utils";
 import WalletApi from "api/WalletApi";
 import WalletDb from "stores/WalletDb";
-import {ChainStore} from "leedexjs";
+import {ChainStore} from "kreeljs";
 import big from "bignumber.js";
 import {gatewayPrefixes} from "common/gateways";
-import {price} from "leedexjs/es/serializer/src/operations";
+import {price} from "kreeljs/es/serializer/src/operations";
 let inProgress = {};
 
 class AssetActions {

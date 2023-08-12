@@ -8,8 +8,8 @@ import Translate from "react-translate-component";
 class Create extends React.Component {
     state = {
         name: "",
-        quoteAsset: "LD",
-        baseAsset: "LEEDEX.USDT",
+        quoteAsset: "KREEL",
+        baseAsset: "KREEL.USDT",
 
         quoteAmount: 500.0,
         baseAmount: 10,

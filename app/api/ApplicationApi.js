@@ -8,7 +8,7 @@ import {
     TransactionHelper,
     FetchChain,
     ChainStore
-} from "leedexjs";
+} from "kreeljs";
 import counterpart from "counterpart";
 import {Notification} from "bitshares-ui-style-guide";
 

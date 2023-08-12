@@ -4,7 +4,7 @@ const path = require("path");
 const util = require("util");
 const readFile = util.promisify(fs.readFile);
 const writeFile = util.promisify(fs.writeFile);
-const {ChainStore} = require("leedexjs");
+const {ChainStore} = require("kreeljs");
 
 readFile(path.resolve(scamAccounts), "utf8")
     .then(str => {

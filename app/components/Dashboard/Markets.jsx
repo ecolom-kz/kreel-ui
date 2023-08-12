@@ -1,5 +1,5 @@
 import React from "react";
-import {Apis} from "leedexjs-ws";
+import {Apis} from "kreeljs-ws";
 import {connect} from "alt-react";
 
 import utils from "common/utils";
@@ -88,7 +88,7 @@ class FeaturedMarkets extends React.Component {
                 if (
                     obj.quote !== obj.base &&
                     !markets.has(marketKey) &&
-                    obj.base !== "LEEDEX.RUBLE" &&
+                    obj.base !== "KREEL.RUBLE" &&
                     props.quotes[i] === "RUBLE"
                 ) {
                     markets = markets.set(marketKey, obj);

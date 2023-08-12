@@ -1,6 +1,6 @@
 import alt from "alt-instance";
 import counterpart from "counterpart";
-import {Signature, ChainStore, PublicKey} from "leedexjs";
+import {Signature, ChainStore, PublicKey} from "kreeljs";
 import WalletUnlockActions from "actions/WalletUnlockActions";
 import WalletDb from "stores/WalletDb";
 

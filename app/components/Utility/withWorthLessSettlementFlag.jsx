@@ -1,5 +1,5 @@
 import React, {PureComponent} from "react";
-import {Apis} from "leedexjs-ws";
+import {Apis} from "kreeljs-ws";
 
 import AssetWrapper from "./AssetWrapper";
 import {Asset, Price} from "common/MarketClasses";

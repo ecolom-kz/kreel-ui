@@ -1,6 +1,6 @@
 import React from "react";
 import {FormattedRelative} from "react-intl";
-import {ChainStore} from "leedexjs";
+import {ChainStore} from "kreeljs";
 import PropTypes from "prop-types";
 import {Tooltip} from "bitshares-ui-style-guide";
 

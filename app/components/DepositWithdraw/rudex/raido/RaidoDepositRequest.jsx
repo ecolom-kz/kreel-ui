@@ -1,6 +1,6 @@
 import React from "react";
 import Translate from "react-translate-component";
-import {ChainStore} from "leedexjs";
+import {ChainStore} from "kreeljs";
 import ChainTypes from "components/Utility/ChainTypes";
 import BindToChainState from "components/Utility/BindToChainState";
 import {requestDepositAddress} from "lib/common/RuDexMethods";
@@ -443,7 +443,7 @@ class RaidoDepositRequest extends React.Component {
 
         let deposit_address_fragment = null;
 
-        let currentGateway = "LEEDEX";
+        let currentGateway = "KREEL";
         if (
             !!availableGateways[currentGateway].simpleAssetGateway &&
             this.props.deposit_account

@@ -6,7 +6,7 @@ import BalanceClaimActiveStore from "stores/BalanceClaimActiveStore";
 import CachedPropertyStore from "stores/CachedPropertyStore";
 import PrivateKeyActions from "actions/PrivateKeyActions";
 import WalletActions from "actions/WalletActions";
-import {ChainStore} from "leedexjs";
+import {ChainStore} from "kreeljs";
 import BaseStore from "stores/BaseStore";
 import iDB from "idb-instance";
 import Immutable from "immutable";

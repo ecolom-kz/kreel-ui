@@ -8,7 +8,7 @@ import SettingsActions from "actions/SettingsActions";
 import PriceStatWithLabel from "./PriceStatWithLabel";
 import Translate from "react-translate-component";
 import counterpart from "counterpart";
-import {ChainStore} from "leedexjs";
+import {ChainStore} from "kreeljs";
 import ExchangeHeaderCollateral from "./ExchangeHeaderCollateral";
 import {Icon as AntIcon} from "bitshares-ui-style-guide";
 import {Asset, Price} from "common/MarketClasses";
@@ -72,18 +72,18 @@ export default class ExchangeHeader extends React.Component {
         let nativeTokens = get_allTokens().nativeTokens;
         coins = coins.concat(nativeTokens);
 
-        //1. LEEDEX.X <=> LEEDEX.X
-        if (quote.indexOf("LEEDEX.") !== -1 && base.indexOf("LEEDEX.") !== -1)
+        //1. KREEL.X <=> KREEL.X
+        if (quote.indexOf("KREEL.") !== -1 && base.indexOf("KREEL.") !== -1)
             return false;
 
         //2. coins <=> coins
         if (coins.indexOf(quote) !== -1 && coins.indexOf(base) !== -1)
             return false;
 
-        //3. LEEDEX.X <=> coins
+        //3. KREEL.X <=> coins
         if (
-            (quote.indexOf("LEEDEX.") !== -1 && coins.indexOf(base) !== -1) ||
-            (base.indexOf("LEEDEX.") !== -1 && coins.indexOf(quote) !== -1)
+            (quote.indexOf("KREEL.") !== -1 && coins.indexOf(base) !== -1) ||
+            (base.indexOf("KREEL.") !== -1 && coins.indexOf(quote) !== -1)
         )
             return false;
 

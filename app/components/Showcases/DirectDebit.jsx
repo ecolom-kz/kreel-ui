@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {Apis} from "leedexjs-ws";
+import {Apis} from "kreeljs-ws";
 import {
     Input,
     Card,
@@ -12,7 +12,7 @@ import {
     Table
 } from "bitshares-ui-style-guide";
 import counterpart from "counterpart";
-import {ChainStore} from "leedexjs";
+import {ChainStore} from "kreeljs";
 import utils from "common/utils";
 import DirectDebitModal from "../Modal/DirectDebitModal";
 import DirectDebitClaimModal from "../Modal/DirectDebitClaimModal";

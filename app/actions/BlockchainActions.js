@@ -1,5 +1,5 @@
 import alt from "alt-instance";
-import {Apis} from "leedexjs-ws";
+import {Apis} from "kreeljs-ws";
 
 let latestBlocks = {};
 

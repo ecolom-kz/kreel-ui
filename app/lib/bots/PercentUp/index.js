@@ -117,12 +117,12 @@ class PercentUp extends BotFather {
                 }
             } else {
                 let forQuoteFee =
-                        this.quote.symbol === "LD"
+                        this.quote.symbol === "KREEL"
                             ? (isNaN(order.fee) ? orderFee : order.fee) +
                               orderFee
                             : 0,
                     forBaseFee =
-                        this.base.symbol === "LD"
+                        this.base.symbol === "KREEL"
                             ? (isNaN(order.fee) ? orderFee : order.fee) +
                               orderFee
                             : 0,

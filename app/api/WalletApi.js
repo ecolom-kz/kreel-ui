@@ -2,7 +2,7 @@ import {
     SerializerValidation,
     TransactionBuilder,
     TransactionHelper
-} from "leedexjs";
+} from "kreeljs";
 import ApplicationApi from "./ApplicationApi";
 
 const WalletApi = {

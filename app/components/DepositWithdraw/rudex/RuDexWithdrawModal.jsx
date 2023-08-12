@@ -10,7 +10,7 @@ import AccountActions from "actions/AccountActions";
 import {validateAddress, WithdrawAddresses} from "common/RuDexMethods";
 import {connect} from "alt-react";
 import SettingsStore from "stores/SettingsStore";
-import {ChainStore} from "leedexjs";
+import {ChainStore} from "kreeljs";
 import {checkFeeStatusAsync, checkBalance} from "common/trxHelper";
 import {Price, Asset} from "common/MarketClasses";
 import {debounce} from "lodash-es";
@@ -605,8 +605,8 @@ class RuDexWithdrawModal extends React.Component {
                 <div
                     className={
                         !storedAddress.length
-                            ? "leedex-disabled-options"
-                            : "leedex-options"
+                            ? "kreel-disabled-options"
+                            : "kreel-options"
                     }
                 >
                     {storedAddress.map(function(name, index) {

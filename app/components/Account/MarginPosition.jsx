@@ -7,7 +7,7 @@ import AssetName from "../Utility/AssetName";
 import AssetImage from "../Utility/AssetImage";
 import BorrowModal from "../Modal/BorrowModal";
 import WalletApi from "api/WalletApi";
-import {ChainStore} from "leedexjs";
+import {ChainStore} from "kreeljs";
 import WalletDb from "stores/WalletDb";
 import utils from "common/utils";
 import counterpart from "counterpart";

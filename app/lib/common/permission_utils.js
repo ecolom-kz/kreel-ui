@@ -1,4 +1,4 @@
-import {ChainStore} from "leedexjs";
+import {ChainStore} from "kreeljs";
 import Immutable from "immutable";
 
 let KeyAuth = function(auth) {

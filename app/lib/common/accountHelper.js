@@ -1,4 +1,4 @@
-import {FetchChain} from "leedexjs";
+import {FetchChain} from "kreeljs";
 import {FeedPrice, Asset} from "./MarketClasses";
 import asset_utils from "./asset_utils";
 

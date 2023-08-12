@@ -1,8 +1,8 @@
 import alt from "alt-instance";
-import {Apis} from "leedexjs-ws";
+import {Apis} from "kreeljs-ws";
 import WalletApi from "api/WalletApi";
 import WalletDb from "stores/WalletDb";
-import {ChainStore, hash, FetchChainObjects} from "leedexjs";
+import {ChainStore, hash, FetchChainObjects} from "kreeljs";
 
 const calculateHash = (cipher, preimage) => {
     let preimage_hash_calculated = null;

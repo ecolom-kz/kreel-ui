@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import PropTypes from "prop-types";
 import {connect} from "alt-react";
-import {PrivateKey} from "leedexjs/es";
+import {PrivateKey} from "kreeljs/es";
 import WalletManagerStore from "stores/WalletManagerStore";
 import BackupStore from "stores/BackupStore";
 import AccountStore from "stores/AccountStore";
