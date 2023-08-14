@@ -102,8 +102,8 @@ export function getDefaultMarket() {
         return "USD_TEST";
     }
     // [market 0]
-    //    return "KREEL.USDT_KREEL";
-    return "KREEL.USD";
+    return "KREEL.USDT_KREEL";
+    //return "KREEL.USD";
 }
 
 /**
@@ -287,7 +287,7 @@ export function getConfigurationAsset() {
     return {
         symbol: assetSymbol,
         explanation:
-            "This asset is used for decentralized configuration of the KREEL UI placed under http://kreel2.samsonov.net/."
+            "This asset is used for decentralized configuration of the KREEL UI placed under https://ecolom.samsonov.net/."
     };
 }
 

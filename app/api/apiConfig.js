@@ -1,13 +1,13 @@
 import {getFaucet, getTestFaucet} from "../branding";
 
 export const rudexAPIs = {
-    BASE: "http://gateway.kreel2.samsonov.net/api/rudex_new",
+    BASE: "https://gateway.ecolom.samsonov.net/api/rudex_new",
     COINS_LIST: "/coins",
     NEW_DEPOSIT_ADDRESS: "/simple-api/initiate-trade"
 };
 
 export const bep20rudexAPIs = {
-    BASE: "http://gateway.kreel2.samsonov.net/api/rudex_new_bep20",
+    BASE: "http://gateway.ecolom.samsonov.net/api/rudex_new_bep20",
     COINS_LIST: "/coins",
     NEW_DEPOSIT_ADDRESS: "/simple-api/initiate-trade"
 };

@@ -23,7 +23,7 @@
         "create_account": "Crea un account",
         "create_new": "Crea un nuovo account",
         "deactivate_suspicious_proposals": "Deactivate suspicious proposals",
-        "deposit": "Deposita BTS",
+        "deposit": "Deposita KREEL",
         "deposit_address": "Il tuo indirizzo di deposito è il nome del tuo account",
         "deposit_withdraw": "Deposita/Preleva",
         "download_history": "Download History",
@@ -66,7 +66,7 @@
         "in_open": "Questa è la quantità di %(asset)s che hai in ordini correntemente aperti.",
         "in_open_value": "Questo è il valore stimato di %(asset)s che hai in ordini correntemente aperti.",
         "intro_text_1": "Il tuo Platform decentralizzato",
-        "intro_text_2": "<b>Il DEX</b> è inerentemente decentralizzato, permettendoti la compravendita del token Graphene (BTS) e una varietà di asset trustless stabili nel prezzo e ancorati al mercato come gpUSD, gpCNY, bitBTC, bitGold e altri. È possibile fare trading di questi asset con <b>zero</b> rischio di controparte, permettendoti di mantenere il pieno controllo sui tuoi fondi.",
+        "intro_text_2": "<b>Il DEX</b> è inerentemente decentralizzato, permettendoti la compravendita del token Graphene (KREEL) e una varietà di asset trustless stabili nel prezzo e ancorati al mercato come gpUSD, gpCNY, bitBTC, bitGold e altri. È possibile fare trading di questi asset con <b>zero</b> rischio di controparte, permettendoti di mantenere il pieno controllo sui tuoi fondi.",
         "intro_text_3": "<b>Il DEX</b> permette anche la creazione di asset generati dagli utenti (user-issued assets, UIA), con cui si può fare trading con altri UIA o altri asset trustless sulla piattaforma.  Un distributore molto noto sul DEX è <b>OpenLedger</b>, che offre una gamma di asset che include BTC, ETH, STEEM, DASH, LTC, DOGE e molti altri",
         "intro_text_4": "Ciò garantisce ai trader di criptovalute un unico mix di trading tradizionale e decentralizzato, il tutto con la familiare interfaccia di un exchange. Buon trading!",
         "intro_text_title": "Benvenuto su Graphene",
@@ -476,7 +476,7 @@
         "ws_status": "Stato della connessione del full node"
     },
     "assets": {
-        "BTS": "GPH is the core token of the Graphene Blockchain"
+        "KREEL": "KREEL is the core token of the Graphene Blockchain"
     },
     "boolean": {
         "false": "False",
@@ -1057,10 +1057,10 @@
             "create": "Crea una nuova worker proposal",
             "create_text_1": "Per creare il nuovo worker, per favore riempi il seguente form. Il worker sarà creato usando il tuo account correntemente attivo, che deve già essere un membro a vita.",
             "create_text_2": "Valuta attentamente i parametri che scegli, dal momento che non possono essere modificati una volta che hai pubblicato il tuo worker.",
-            "daily_pay": "Paga giornaliera (GPH)",
+            "daily_pay": "Paga giornaliera (KREEL)",
             "date_text": "La data d'inizio dovrebbe essere almeno una settimana nel futuro, in modo da dare alle persone il tempo di scoprire, valutare e votare per il tuo worker.",
             "name_text": "Il nome del tuo worker dovrebbe essere breve e descrittivo, tipo: 'Scopo del worker - Nome Account'",
-            "pay_text": "La paga giornaliera specifica quanto quanto vuoi essere pagato al giorno, ed è specificata in GPH. Attualmente, è buona norma definire il salario in USD/CNY, e impegnarsi a bruciare qualunque surplus che ottieni per via della crescita del prezzo di GPH. Finché il tuo worker è attivo e dispone di voti a sufficienza da stare sopra il Refund Worker, riceverai questa paga giornaliera.",
+            "pay_text": "La paga giornaliera specifica quanto quanto vuoi essere pagato al giorno, ed è specificata in KREEL. Attualmente, è buona norma definire il salario in USD/CNY, e impegnarsi a bruciare qualunque surplus che ottieni per via della crescita del prezzo di KREEL. Finché il tuo worker è attivo e dispone di voti a sufficienza da stare sopra il Refund Worker, riceverai questa paga giornaliera.",
             "period": "Durata worker",
             "title": "Nome del worker",
             "url_text": "Dovresti fornire un sito web, un documento github o Google doc che spieghi in dettaglio lo scopo del worker e come intendi utilizzare la paga del worker.",
@@ -1071,7 +1071,7 @@
     },
     "external_service_provider": {
         "bridge": {
-            "description": "Bridges are external service providers that allow you to swap assets in and out of the Graphene Blockchain. For example, you can send your BTC on the Bitcoin Blockchain to a Bridge, who will swap it and give you an equivalent amount of GPH or another Gateways UIA on the Graphene Blockchain (for a fee of course). Normally, a Bridge does not hold your funds, but trust is required that they send you back the proper amount of the target asset. As it is an external service providers you implicitly agree to their Terms and Conditions by using any of their services or assets.",
+            "description": "Bridges are external service providers that allow you to swap assets in and out of the Graphene Blockchain. For example, you can send your BTC on the Bitcoin Blockchain to a Bridge, who will swap it and give you an equivalent amount of KREEL or another Gateways UIA on the Graphene Blockchain (for a fee of course). Normally, a Bridge does not hold your funds, but trust is required that they send you back the proper amount of the target asset. As it is an external service providers you implicitly agree to their Terms and Conditions by using any of their services or assets.",
             "short": "Bridge",
             "what_is": "What is a Bridge?"
         },
@@ -1122,7 +1122,7 @@
         "loading": "Caricamento...",
         "nosync": "La blockchain non è sincronizzata, per favore attendi..",
         "synced": "Sincronizzato",
-        "title": "Kazakhstan Recyclables Exchange EcoLom.kz",
+        "title": "Kazakhstan Recyclables Exchange EcoLom",
         "unsynced": "Fuori sincrono",
         "update_available": "AGGIORNAMENTO DISPONIBILE"
     },
@@ -1163,7 +1163,7 @@
             "support_block": "For DEPOSIT AND WITHDRAWAL issues using \"BitSpark TRANSFER SERVICE\", please contact BitSpark at:"
         },
         "bridge": "Bridge",
-        "bridge_text": "Un bridge ti permette discambiare un asset verso un altro, ad esempio BTC in GPH.",
+        "bridge_text": "Un bridge ti permette discambiare un asset verso un altro, ad esempio BTC in KREEL.",
         "calc": "Calcolo in corso",
         "choose_deposit": "Per favore seleziona la valuta che vuoi depositare",
         "choose_withdraw": "Per favore seleziona la valuta che vuoi prelevare",
@@ -1580,7 +1580,7 @@
             "address_generation_error": "Unable to generate address",
             "amount": "Quantità da depositare",
             "asset": "Asset",
-            "bts_transfer_description": "It's easy to receive GPH from anywhere. As long as GPH is sent to your account name it will show up in your wallet. This QR code also contains your account name.",
+            "bts_transfer_description": "It's easy to receive KREEL from anywhere. As long as KREEL is sent to your account name it will show up in your wallet. This QR code also contains your account name.",
             "cancel": "Cancel",
             "close": "Close",
             "header": "Deposit to %(account_name)s",
@@ -1681,7 +1681,7 @@
             "enter_public_signing_key": "Enter your public signing key",
             "invalid_key": "Public Key is invalid",
             "public_signing_key": "Public Signing Key",
-            "text": "After being voted in as an active witness you are added in the rotation of block producers and expected to produce blocks signed by your signing key and you are rewarded in GPH per produced block. Common criteria that help make your case are <ul><li>implementation of fallbacks (e.g. running a hot swap backup server) and appropriate server specifications to ensure a low number of missed blocks (e.g. high connectivity)</li><li>participation in block production and rolling releases of the testnet</li><li>provision of a public node for the community</li><li>publication of price feeds for the gpAssets</li></ul> Submit a link to your website or forum post explaining why you would be a exemplary member to attract enough votes to become active.",
+            "text": "After being voted in as an active witness you are added in the rotation of block producers and expected to produce blocks signed by your signing key and you are rewarded in KREEL per produced block. Common criteria that help make your case are <ul><li>implementation of fallbacks (e.g. running a hot swap backup server) and appropriate server specifications to ensure a low number of missed blocks (e.g. high connectivity)</li><li>participation in block production and rolling releases of the testnet</li><li>provision of a public node for the community</li><li>publication of price feeds for the gpAssets</li></ul> Submit a link to your website or forum post explaining why you would be a exemplary member to attract enough votes to become active.",
             "url": "URL",
             "web_example": "Enter link to your witness proposal post",
             "witness_account": "Witness Account"
@@ -2034,7 +2034,7 @@
         "backup_favoritesbtn": "Backup favorites",
         "backup_favoritestext": "Back up your favorites to restore them later after updates.",
         "backup_key": "Importa chiave privata",
-        "backup_legacy": "Importa un file di esportazione della chiave di GPH 0.9.3c (.json)",
+        "backup_legacy": "Importa un file di esportazione della chiave di KREEL 0.9.3c (.json)",
         "backup_text": "Crea qui i backup.",
         "backupcreate_backup": "Crea backup del portafoglio",
         "backupcreate_brainkey": "Crea backup della brainkey",
@@ -2075,7 +2075,7 @@
         "lightTheme": "Tema chiaro",
         "local_wallet": "Login Portafoglio locale",
         "locale": "Cambia lingua",
-        "lookup_text": "Clicca il pulsante sotto per verificare la presenza di saldi non riscossi da GPH 1.0",
+        "lookup_text": "Clicca il pulsante sotto per verificare la presenza di saldi non riscossi da KREEL 1.0",
         "low_latency": "Bassa latenza",
         "medium_latency": "Media latenza",
         "midnightTheme": "Midnight",
@@ -2184,13 +2184,13 @@
             "previous": "Previous",
             "steps_benefits": {
                 "text": "Creating a Collateralized Debt Position allows you to provide liquidity for your desired SmartCoin (MPA), without giving up ownership of your collateral provided that you lock up enough collateral to guarantee the value of the SmartCoin. On the one hand, selling the newly generated SmartCoin on the open market will create leverage on your position (i.e. you sell it short, and will need to buy it back to close the position). On the other hand, holders of the SmartCoin benefit from the significantly less volatile SmartCoin, and they can additionally request a force settlement to obtain the corresponding value in its collateral without the need of markets.",
-                "text_legend": "Forced settlement: Holders of a SmartCoin can request a forced settlement. The SmartCoin is used to forcefully pay back the debt of the least collateralized positions while the former SmartCoin holder receives collateral as if he sold it for the forced settlement price. Any leftover collateral is returned to the position holder. This mechanism enforces a mandated delay after being triggered to avoid abuse (24 hours). \nForced Settlement Price: The price at which a forced settlement price will occur. It is calculated from the feed price by adding a forced settlement offset to disincentivize forced settlements. All settlements are converted to underlying backing asset (e.g. GPH in the case of gpUSD).",
+                "text_legend": "Forced settlement: Holders of a SmartCoin can request a forced settlement. The SmartCoin is used to forcefully pay back the debt of the least collateralized positions while the former SmartCoin holder receives collateral as if he sold it for the forced settlement price. Any leftover collateral is returned to the position holder. This mechanism enforces a mandated delay after being triggered to avoid abuse (24 hours). \nForced Settlement Price: The price at which a forced settlement price will occur. It is calculated from the feed price by adding a forced settlement offset to disincentivize forced settlements. All settlements are converted to underlying backing asset (e.g. KREEL in the case of gpUSD).",
                 "title": "Benefits",
                 "title_within": "What are the benefits?"
             },
             "steps_concept": {
                 "text": "A Collateralized Debt Position enables every user of the Graphene Blockchain to generate SmartCoins (MPA) by providing collateral. The collateral is locked up until you pay back the SmartCoins you have generated. You are effectively borrowing the SmartCoin from the Graphene Blockchain.",
-                "text_legend": "Example gpUSD: Provide GPH as collateral to borrow gpUSD",
+                "text_legend": "Example gpUSD: Provide KREEL as collateral to borrow gpUSD",
                 "title": "Concept",
                 "title_within": "What is a Collateralized Debt Position?"
             },
@@ -2691,7 +2691,7 @@
         }
     },
     "voting": {
-        "description": "The Graphene blockchain allows the holders of its core token GPH to vote on block producers (witnesses), committee members (blockchain governance), worker proposals (reimbursement for tasks and strategic decisions through BSIPs/Polls).",
+        "description": "The Graphene blockchain allows the holders of its core token KREEL to vote on block producers (witnesses), committee members (blockchain governance), worker proposals (reimbursement for tasks and strategic decisions through BSIPs/Polls).",
         "title": "Voting"
     },
     "walkthrough": {
@@ -2749,7 +2749,7 @@
         "brainkey_w1": "Per completare il backup, stampa questo o prendine nota per iscritto.",
         "brainkey_w2": "Chiunque abbia accesso alla tua chiave di recupero avrà",
         "brainkey_w3": "accesso ai fondi in questo portafoglio.",
-        "bts_09_export": "File di esportazione chiavi GPH 0.9.3c (.json)",
+        "bts_09_export": "File di esportazione chiavi KREEL 0.9.3c (.json)",
         "cancel": "Annulla",
         "change": "Cambia a %(name)s",
         "change_backup": "Adesso che hai cambiato la tua password, ti consigliamo fortemente di effettuare un nuovo backup.",
@@ -2795,12 +2795,12 @@
         "generated": "Password generata",
         "go_get_started": "Vedi i suggerimenti per iniziare",
         "has_wallet": "Quando crei il tuo primo account Graphene, un portafoglio Graphene viene creato automaticamente e memorizzato nel tuo browser. Questo portafoglio è crittografato con la tua password, e contiene tutte le chiavi private che appartengono al tuo account. È molto importante che dedichi il tempo necessario per creare un backup di questo portafoglio, dopo la creazione!",
-        "import_20_notice1": "Importa prima il tuo BACKUP GPH 2.0+",
+        "import_20_notice1": "Importa prima il tuo BACKUP KREEL 2.0+",
         "import_20_notice2": "(se ne hai uno)",
         "import_backup": "Importa backup Graphene 2.0 (file .bin)",
         "import_backup_choose": "Seleziona il tuo file di backup nella finestra di dialogo sotto. Farlo è sicuro perché il file non è mai caricato online e non lascia il tuo browser.",
         "import_balance": "Importa saldo/i",
-        "import_bts": "Importa un'esportazione chiavi GPH 0.9.3c",
+        "import_bts": "Importa un'esportazione chiavi KREEL 0.9.3c",
         "import_bts1": "Importa da Graphene 0.9.3c",
         "import_key_success": "%(count)s chiavi importate con successo.",
         "import_keys": "Importa chiavi",

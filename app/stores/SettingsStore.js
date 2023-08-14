@@ -14,7 +14,7 @@ import {
     getUnits
 } from "branding";
 
-const CORE_ASSET = "KREEL"; // Setting this to BTS to prevent loading issues when used with BTS chain which is the most usual case currently
+const CORE_ASSET = "KREEL"; // Setting this to KREEL to prevent loading issues when used with KREEL chain which is the most usual case currently
 
 const STORAGE_KEY = "__graphene__";
 let ss = ls(STORAGE_KEY);

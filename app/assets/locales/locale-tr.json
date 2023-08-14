@@ -23,7 +23,7 @@
         "create_account": "Hesap oluştur",
         "create_new": "Yeni Hesap Oluştur",
         "deactivate_suspicious_proposals": "Deactivate suspicious proposals",
-        "deposit": "Deposit GPH",
+        "deposit": "Deposit KREEL",
         "deposit_address": "Your deposit address is your account name",
         "deposit_withdraw": "Yatır/Çek",
         "download_history": "Download History",
@@ -476,7 +476,7 @@
         "ws_status": "Websocket Bağlantı Durumu"
     },
     "assets": {
-        "BTS": "GPH is the core token of the Graphene Blockchain"
+        "KREEL": "KREEL is the core token of the Graphene Blockchain"
     },
     "boolean": {
         "false": "False",
@@ -1057,10 +1057,10 @@
             "create": "Create a new worker proposal",
             "create_text_1": "In order to create your new worker, please fill in the form below. The worker will be created using your currently active account, which must already be a lifetime member.",
             "create_text_2": "Consider carefully the parameters you choose as they can not be changed once you've published your worker.",
-            "daily_pay": "Daily pay (GPH)",
+            "daily_pay": "Daily pay (KREEL)",
             "date_text": "The start date should be at least a week into the future in order to allow people the time to discover, evaluate and vote for your worker.",
             "name_text": "The name of your worker should be short and descriptive, something like this: 'Worker Purpose - Account Name'",
-            "pay_text": "The daily pay defines how much you want to be paid per day and is defined in GPH. The current best practice is to define a salary in USD/CNY, and commit to burning whatever surplus you receive as a result of the GPH price increasing. As long as your worker is active and has sufficient votes to be above the refund worker, you will receive this daily salary.",
+            "pay_text": "The daily pay defines how much you want to be paid per day and is defined in KREEL. The current best practice is to define a salary in USD/CNY, and commit to burning whatever surplus you receive as a result of the KREEL price increasing. As long as your worker is active and has sufficient votes to be above the refund worker, you will receive this daily salary.",
             "period": "Worker duration",
             "title": "Bütçe Öğeleri",
             "url_text": "You should supply a website, github document or google doc that describes in more detail the purpose of the worker and how you intend to use the worker pay.",
@@ -1071,7 +1071,7 @@
     },
     "external_service_provider": {
         "bridge": {
-            "description": "Bridges are external service providers that allow you to swap assets in and out of the Graphene Blockchain. For example, you can send your BTC on the Bitcoin Blockchain to a Bridge, who will swap it and give you an equivalent amount of GPH or another Gateways UIA on the Graphene Blockchain (for a fee of course). Normally, a Bridge does not hold your funds, but trust is required that they send you back the proper amount of the target asset. As it is an external service providers you implicitly agree to their Terms and Conditions by using any of their services or assets.",
+            "description": "Bridges are external service providers that allow you to swap assets in and out of the Graphene Blockchain. For example, you can send your BTC on the Bitcoin Blockchain to a Bridge, who will swap it and give you an equivalent amount of KREEL or another Gateways UIA on the Graphene Blockchain (for a fee of course). Normally, a Bridge does not hold your funds, but trust is required that they send you back the proper amount of the target asset. As it is an external service providers you implicitly agree to their Terms and Conditions by using any of their services or assets.",
             "short": "Bridge",
             "what_is": "What is a Bridge?"
         },
@@ -1122,7 +1122,7 @@
         "loading": "Yükleniyor...",
         "nosync": "Blokzinciri ile eşzamanlı değil, lütfen senkronize olana kadar bekleyin...",
         "synced": "Synced",
-        "title": "Kazakhstan Recyclables Exchange EcoLom.kz",
+        "title": "Kazakhstan Recyclables Exchange EcoLom",
         "unsynced": "Out of sync",
         "update_available": "UPDATE AVAILABLE"
     },
@@ -1163,7 +1163,7 @@
             "support_block": "For DEPOSIT AND WITHDRAWAL issues using \"BitSpark TRANSFER SERVICE\", please contact BitSpark at:"
         },
         "bridge": "Köprü",
-        "bridge_text": " Köprüler bir dijital varlıktan bir diğerine geçiş yapmanızı sağlar, örn. BTC'yi BTS'ye.",
+        "bridge_text": " Köprüler bir dijital varlıktan bir diğerine geçiş yapmanızı sağlar, örn. BTC'yi KREEL'ye.",
         "calc": "Hesaplanıyor...",
         "choose_deposit": "Lütfen yatırmak istediğiniz dijital varlığı seçin",
         "choose_withdraw": "Lütfen çekmek istediğiniz dijital varlığı seçin",
@@ -1580,7 +1580,7 @@
             "address_generation_error": "Unable to generate address",
             "amount": "Yatıralacak Miktar",
             "asset": "Asset",
-            "bts_transfer_description": "It's easy to receive BTS from anywhere. As long as GPH is sent to your account name it will show up in your wallet. This QR code also contains your account name.",
+            "bts_transfer_description": "It's easy to receive KREEL from anywhere. As long as KREEL is sent to your account name it will show up in your wallet. This QR code also contains your account name.",
             "cancel": "Cancel",
             "close": "Close",
             "header": "Deposit to %(account_name)s",
@@ -1681,7 +1681,7 @@
             "enter_public_signing_key": "Enter your public signing key",
             "invalid_key": "Public Key is invalid",
             "public_signing_key": "Public Signing Key",
-            "text": "After being voted in as an active witness you are added in the rotation of block producers and expected to produce blocks signed by your signing key and you are rewarded in GPH per produced block. Common criteria that help make your case are <ul><li>implementation of fallbacks (e.g. running a hot swap backup server) and appropriate server specifications to ensure a low number of missed blocks (e.g. high connectivity)</li><li>participation in block production and rolling releases of the testnet</li><li>provision of a public node for the community</li><li>publication of price feeds for the gpAssets</li></ul> Submit a link to your website or forum post explaining why you would be a exemplary member to attract enough votes to become active.",
+            "text": "After being voted in as an active witness you are added in the rotation of block producers and expected to produce blocks signed by your signing key and you are rewarded in KREEL per produced block. Common criteria that help make your case are <ul><li>implementation of fallbacks (e.g. running a hot swap backup server) and appropriate server specifications to ensure a low number of missed blocks (e.g. high connectivity)</li><li>participation in block production and rolling releases of the testnet</li><li>provision of a public node for the community</li><li>publication of price feeds for the gpAssets</li></ul> Submit a link to your website or forum post explaining why you would be a exemplary member to attract enough votes to become active.",
             "url": "URL",
             "web_example": "Enter link to your witness proposal post",
             "witness_account": "Witness Account"
@@ -2034,7 +2034,7 @@
         "backup_favoritesbtn": "Backup favorites",
         "backup_favoritestext": "Back up your favorites to restore them later after updates.",
         "backup_key": "Özel anahtar aktar",
-        "backup_legacy": "GPH 0.9.3c .json dosyası ile cüzdan kurtar",
+        "backup_legacy": "KREEL 0.9.3c .json dosyası ile cüzdan kurtar",
         "backup_text": "Cüzdan yedekleme",
         "backupcreate_backup": "Cüzdanı yedekle",
         "backupcreate_brainkey": "TekAnahtar yedeği oluştur",
@@ -2075,7 +2075,7 @@
         "lightTheme": "Açık tema",
         "local_wallet": "Local Wallet Login",
         "locale": "Dili değiştir",
-        "lookup_text": "GPH 1.0'den kalan bakiyelerinizi almak için tıklayın.",
+        "lookup_text": "KREEL 1.0'den kalan bakiyelerinizi almak için tıklayın.",
         "low_latency": "Low latency",
         "medium_latency": "Medium latency",
         "midnightTheme": "Midnight",
@@ -2184,13 +2184,13 @@
             "previous": "Previous",
             "steps_benefits": {
                 "text": "Creating a Collateralized Debt Position allows you to provide liquidity for your desired SmartCoin (MPA), without giving up ownership of your collateral provided that you lock up enough collateral to guarantee the value of the SmartCoin. On the one hand, selling the newly generated SmartCoin on the open market will create leverage on your position (i.e. you sell it short, and will need to buy it back to close the position). On the other hand, holders of the SmartCoin benefit from the significantly less volatile SmartCoin, and they can additionally request a force settlement to obtain the corresponding value in its collateral without the need of markets.",
-                "text_legend": "Forced settlement: Holders of a SmartCoin can request a forced settlement. The SmartCoin is used to forcefully pay back the debt of the least collateralized positions while the former SmartCoin holder receives collateral as if he sold it for the forced settlement price. Any leftover collateral is returned to the position holder. This mechanism enforces a mandated delay after being triggered to avoid abuse (24 hours). \nForced Settlement Price: The price at which a forced settlement price will occur. It is calculated from the feed price by adding a forced settlement offset to disincentivize forced settlements. All settlements are converted to underlying backing asset (e.g. GPH in the case of gpUSD).",
+                "text_legend": "Forced settlement: Holders of a SmartCoin can request a forced settlement. The SmartCoin is used to forcefully pay back the debt of the least collateralized positions while the former SmartCoin holder receives collateral as if he sold it for the forced settlement price. Any leftover collateral is returned to the position holder. This mechanism enforces a mandated delay after being triggered to avoid abuse (24 hours). \nForced Settlement Price: The price at which a forced settlement price will occur. It is calculated from the feed price by adding a forced settlement offset to disincentivize forced settlements. All settlements are converted to underlying backing asset (e.g. KREEL in the case of gpUSD).",
                 "title": "Benefits",
                 "title_within": "What are the benefits?"
             },
             "steps_concept": {
                 "text": "A Collateralized Debt Position enables every user of the Graphene Blockchain to generate SmartCoins (MPA) by providing collateral. The collateral is locked up until you pay back the SmartCoins you have generated. You are effectively borrowing the SmartCoin from the Graphene Blockchain.",
-                "text_legend": "Example gpUSD: Provide GPH as collateral to borrow gpUSD",
+                "text_legend": "Example gpUSD: Provide KREEL as collateral to borrow gpUSD",
                 "title": "Concept",
                 "title_within": "What is a Collateralized Debt Position?"
             },
@@ -2691,7 +2691,7 @@
         }
     },
     "voting": {
-        "description": "The Graphene blockchain allows the holders of its core token GPH to vote on block producers (witnesses), committee members (blockchain governance), worker proposals (reimbursement for tasks and strategic decisions through BSIPs/Polls).",
+        "description": "The Graphene blockchain allows the holders of its core token KREEL to vote on block producers (witnesses), committee members (blockchain governance), worker proposals (reimbursement for tasks and strategic decisions through BSIPs/Polls).",
         "title": "Voting"
     },
     "walkthrough": {
@@ -2749,7 +2749,7 @@
         "brainkey_w1": "UYARI : Bunu bir kağıda yazın yada çıktı alın.",
         "brainkey_w2": "Kurtarma anahtarınıza ulaşan herhangi bir kimse",
         "brainkey_w3": "bu cüzdan içindeki fonlara ulaşabilir.",
-        "bts_09_export": "GPH 0.9.3c yedek anahtar dosyası (.json)",
+        "bts_09_export": "KREEL 0.9.3c yedek anahtar dosyası (.json)",
         "cancel": "İptal",
         "change": "Değiştir (%(name)s Cüzdan)",
         "change_backup": "Şifrenizi değiştirdiğiniz için cüzdanınızı yeniden yedeklemeniz gerekmektedir.",
@@ -2795,12 +2795,12 @@
         "generated": "Generated password",
         "go_get_started": "Getting Started",
         "has_wallet": "Graphene hesabı açtığınızda cüzdanınızın kontrolü tamamen size aittir. Bir başka kişi sizin cüzdanınızı kontrol edemez. Cüzdana erişim için gerekli olan TekAnahtar bilgisayarınızda şifreli olarak saklanır.",
-        "import_20_notice1": "İlk önce GPH 2.0+ YEDEĞİNİZİ içeri aktarın ",
+        "import_20_notice1": "İlk önce KREEL 2.0+ YEDEĞİNİZİ içeri aktarın ",
         "import_20_notice2": "(eğer varsa)",
         "import_backup": "Yedekten geri yükle",
         "import_backup_choose": "Lütfen yedekleme dosyasını seçin. Bu işlem esnasında dosya kendi bilgisayarınızdan dışarıya asla aktarılmaz, bütün işlem bilgisayarınızda gerçekleşir.",
         "import_balance": "Bakiyeyi aktar.",
-        "import_bts": "GPH 0.9.3c anahtar aktarma",
+        "import_bts": "KREEL 0.9.3c anahtar aktarma",
         "import_bts1": "Graphene 0.9.3c den aktarım",
         "import_key_success": "İşleminiz başarıyla tamamlandı!",
         "import_keys": "İçeri Anahtar Aktar",

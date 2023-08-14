@@ -1,6 +1,6 @@
 [# receive]
 ### Kullanıcı adınız
-Bitshares hesabınıza bir başkasından ya da bir borsadan GPH gönderimi için, göndericiye kullanıcı adınızı vermeniz yeterlidir. GPH'ler doğrudan kullanıcı adı belirtilerek gönderilir:
+Bitshares hesabınıza bir başkasından ya da bir borsadan KREEL gönderimi için, göndericiye kullanıcı adınızı vermeniz yeterlidir. KREEL'ler doğrudan kullanıcı adı belirtilerek gönderilir:
 
 [# deposit-short]
 ### Kripto para yatır/çek
