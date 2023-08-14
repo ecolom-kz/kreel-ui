@@ -96,8 +96,8 @@ export const availableGateways = {
             enabled: false,
             selected: false
         },
-        landing: "http://kreel2.samsonov.net/",
-        wallet: "https://market.kreel2.samsonov.net/"
+        landing: "https:/ecolom.samsonov.net/",
+        wallet: "https://market.ecolom.samsonov.net/"
     },
     KREEL_BEP20: {
         id: "KREEL_BEP20",
@@ -117,8 +117,8 @@ export const availableGateways = {
             enabled: false,
             selected: false
         },
-        landing: "http://kreel2.samsonov.net/",
-        wallet: "http://market.kreel2.samsonov.net/"
+        landing: "https://ecolom.samsonov.net/",
+        wallet: "http://market.ecolom.samsonov.net/"
     }
 };
 

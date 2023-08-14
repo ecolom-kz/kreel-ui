@@ -73,8 +73,7 @@ module.exports = function(env) {
         new HtmlWebpackPlugin({
             template: "!!handlebars-loader!app/assets/index.hbs",
             templateParameters: {
-                title:
-                    "Kazakhstan Recyclables Exchange EcoLom.kz" + __VERSION__,
+                title: "Kazakhstan Recyclables Exchange EcoLom" + __VERSION__,
                 INCLUDE_BASE: !!env.prod && !env.hash,
                 PRODUCTION: !!env.prod,
                 ELECTRON: !!env.electron

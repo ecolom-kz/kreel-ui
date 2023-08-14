@@ -1,6 +1,6 @@
 [# receive]
-### Receiving GPH
-In order to receive GPH from another person or from an exchange, simply give them your account name: **{account}**
+### Receiving KREEL
+In order to receive KREEL from another person or from an exchange, simply give them your account name: **{account}**
 
 [# deposit-short]
 ### Depositing or withdrawing coins

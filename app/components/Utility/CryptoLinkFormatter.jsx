@@ -26,11 +26,11 @@ class CryptoLinkFormatter extends React.Component {
         super(params);
 
         this.assetTemplates = {
-            GPH: {
+            KREEL: {
                 template: "{address}",
                 params: []
             },
-            BTS: {
+            KREEL: {
                 template: "{address}",
                 params: []
             },

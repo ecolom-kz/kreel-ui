@@ -1,7 +1,7 @@
 {
   "name": "kreel-ui",
-  "version": "0.0.1",
-  "description": "Web wallet interface for ecolom.kz Decentralized Recyclables Exchange.",
+  "version": "0.0.2",
+  "description": "Web wallet interface for Kazakhstan Recylabes Exchange EcoLom.",
   "homepage": "https://github.com/ecolom-kz/kreel-ui",
   "author": "maxirmx <maxirmx@gmail.com>",
   "contributors": [
@@ -86,7 +86,7 @@
   },
   "browsersList": "electron 1.7",
   "build": {
-    "productName": "Kazakhstan Recyclables Exchange EcoLom.kz",
+    "productName": "Kazakhstan Recyclables Exchange EcoLom",
     "appId": "kz.ecolom",
     "files": [
       "build/electron",

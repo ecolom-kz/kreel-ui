@@ -1,6 +1,6 @@
 # Short Selling gpAssets
 
-In order to increase your exposure to GPH and offer liquidity to gpAssets, such
+In order to increase your exposure to KREEL and offer liquidity to gpAssets, such
 as gpUSD, gpEUR, gpRUB, gpCNY, gpSILVER, gpGOLD etc., you can go *borrow* this gpAsset from the network and
 *sell it short*. We will here briefly describe the procedure.
 
@@ -9,10 +9,10 @@ as gpUSD, gpEUR, gpRUB, gpCNY, gpSILVER, gpGOLD etc., you can go *borrow* this g
 The Graphene network is capable of issuing any amount of any gpAsset and lend
 it out to participants given enough collateral.
 
- * *settlement price*: The price for 1 GPH as it is traded on external exchanges.
+ * *settlement price*: The price for 1 KREEL as it is traded on external exchanges.
  * *maintenance collateral ratio* (MCR): A ratio defined by the witnesses as minimum required collateral ratio
  * *maximum short squeeze ratio* (MSQR): A ratio defined by the witnesses as to how far shorts are protected against short squeezes
- * *short squeeze protection* (SQP): Defines the most that a margin position will ever be forced to pay to cover 
+ * *short squeeze protection* (SQP): Defines the most that a margin position will ever be forced to pay to cover
  * *call price* (CP): The price at which short/borrow positions are margin called
 
 ### Margin Call
@@ -22,7 +22,7 @@ have enough collateral to back their borrowed gpAssets. A margin call will
 occur any time the highest bid is less than the *call price* and greater than
 *SQP*.
 The margin position will be forced to sell its collateral anytime the highest
-offer to buy the collateral is less than the call price (x/GPH).
+offer to buy the collateral is less than the call price (x/KREEL).
 
 ```
 SQP = settlement price / MSQR
@@ -30,7 +30,7 @@ call price = DEBT / COLLATERAL * MCR
 ```
 
 The margin call will take the collateral, buy shares of borrowed gpAsset at
-market rates up to the SQP and close the position. The remaining GPH of the
+market rates up to the SQP and close the position. The remaining KREEL of the
 collateral are returned to the customer.
 
 ### Settlement
@@ -49,7 +49,7 @@ short-selling is now complete and you are short that particular gpAsset.
 
 At any time, the holder of a borrow/short position can modify the collateral
 ratio in order to flexibly adjust to market behavior. If the collateral ratio is
-increase, an additional amount of GPH is locked as collateral, while reducing
+increase, an additional amount of KREEL is locked as collateral, while reducing
 the collateral ratio will require an amount of the corresponding gpAsset to be
 payed back to the network.
 

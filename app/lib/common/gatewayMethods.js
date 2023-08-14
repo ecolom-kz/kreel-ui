@@ -73,7 +73,7 @@ export function getActiveWallets(
                 })
             )
             .catch(err => {
-                console.log("error fetching rudex active wallets", err, url);
+                console.log("error fetching EcoLom active wallets", err, url);
             });
     }
 
