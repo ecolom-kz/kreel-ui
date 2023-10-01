@@ -118,7 +118,7 @@ export const availableGateways = {
             selected: false
         },
         landing: "https://ecolom.samsonov.net/",
-        wallet: "http://market.ecolom.samsonov.net/"
+        wallet: "https://market.ecolom.samsonov.net/"
     }
 };
 

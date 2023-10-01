@@ -7,7 +7,7 @@ export const rudexAPIs = {
 };
 
 export const bep20rudexAPIs = {
-    BASE: "http://gateway.ecolom.samsonov.net/api/rudex_new_bep20",
+    BASE: "https://gateway.ecolom.samsonov.net/api/rudex_new_bep20",
     COINS_LIST: "/coins",
     NEW_DEPOSIT_ADDRESS: "/simple-api/initiate-trade"
 };

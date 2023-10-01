@@ -96,10 +96,12 @@ class SetDefaultFeeAssetModal extends React.Component {
             if (a.asset == "KREEL" || b.asset == "KREEL") {
                 return a.asset == "KREEL" ? 1 : -1;
             } else if (
-                ["USD", "CNY", "EUR", "RUB"].includes(a.asset) !==
-                ["USD", "CNY", "EUR", "RUB"].includes(b.asset)
+                ["USD", "CNY", "EUR", "RUB", "KZT"].includes(a.asset) !==
+                ["USD", "CNY", "EUR", "RUB", "KZT"].includes(b.asset)
             ) {
-                return ["USD", "CNY", "EUR", "RUB"].includes(a.asset) ? 1 : -1;
+                return ["USD", "CNY", "EUR", "RUB", "KZT"].includes(a.asset)
+                    ? 1
+                    : -1;
             }
             return a.asset < b.asset;
         };
