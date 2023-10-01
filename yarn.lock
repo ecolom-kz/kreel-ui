@@ -7747,18 +7747,19 @@ klona@^2.0.4, klona@^2.0.5:
   resolved "https://registry.yarnpkg.com/klona/-/klona-2.0.5.tgz#d166574d90076395d9963aa7a928fabb8d76afbc"
   integrity sha512-pJiBpiXMbt7dkzXe8Ghj/u4FfXOOa98fPW+bihOJ4SjnoijweJrNThJfd3ifXpXhREjpoF2mZVH1GfS9LV3kHQ==
 
-kreeljs-ws@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/kreeljs-ws/-/kreeljs-ws-0.0.1.tgz#25cfadb7418db1ea6859b9421ad3024ce80e4b7f"
-  integrity sha512-MKfDytCcg7ummIT2hLY86zBQ801uC61yNwM3R2fszmBK3QGHAPexWn0UubDktiI2yBltPFN82c2QsDunO8vXwQ==
+kreeljs-ws@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/kreeljs-ws/-/kreeljs-ws-0.0.2.tgz#34ec4a6150ce4157a043fbe9213cb920061aee17"
+  integrity sha512-MvlPpdTd49ObZFhH5l9BrV2k9xLtHiKSvy6OM6t1ZT4jIXY87m+3+WXw56GvS2ESa4BsLQa08ZjblbOKF7dDlQ==
   dependencies:
     isomorphic-ws "^4.0.1"
     ws "^8.4.0"
+    yarn "^1.22.19"
 
-kreeljs@0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/kreeljs/-/kreeljs-0.0.1.tgz#5bb5fc92af0adff5e8d75a230bb065d31a46a54d"
-  integrity sha512-RIFRQg4omUfiRF4UBV72JlGD2WvTSwzBIYaC2bQxwpEAUG3AeTqw02G7xLtHLC9dJTjj+9983Ar5mnsdTimN7Q==
+kreeljs@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/kreeljs/-/kreeljs-0.0.2.tgz#94c210afc72f0e45423e4d448da9f9901dfeedb4"
+  integrity sha512-V+6OqHlVX4SggUZL86WD/jaIyQS/38uow0JTfyQuuanTRxueFoynlpSF2bgUFTGxDQQE95mAuuT0YFOVv+D1kQ==
   dependencies:
     bigi "^1.4.2"
     bs58 "^4.0.1"
@@ -7770,7 +7771,7 @@ kreeljs@0.0.1:
     ecurve "^1.0.6"
     event-emitter "^0.3.5"
     immutable "^4.0.0"
-    kreeljs-ws "^0.0.1"
+    kreeljs-ws "^0.0.2"
     safe-buffer "^5.2.1"
     secure-random "^1.1.2"
 
@@ -12947,6 +12948,11 @@ yargs@^17.0.1:
     string-width "^4.2.3"
     y18n "^5.0.5"
     yargs-parser "^21.1.1"
+
+yarn@^1.22.19:
+  version "1.22.19"
+  resolved "https://registry.yarnpkg.com/yarn/-/yarn-1.22.19.tgz#4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
+  integrity sha512-/0V5q0WbslqnwP91tirOvldvYISzaqhClxzyUKXYxs07yUILIs5jx/k6CFe8bvKSkds5w+eiOqta39Wk3WxdcQ==
 
 yauzl@^2.10.0:
   version "2.10.0"

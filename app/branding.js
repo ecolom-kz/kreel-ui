@@ -15,7 +15,7 @@ function _isTestnet() {
         //        "39f5e2ede1f8bc1a3a54a7914414e3779e33193f1f5693510e73cb7a87617447"; // just for the record
         " -- no test net --"; // just for the record
     const mainnet =
-        "230afd8e06cc690d78c3e37a17bf9e4b19bfd3f15aee2d14f4eb176a8146bf44";
+        "ac18b51afd7362084b476eb8bcefe706bccd3e71238a486013ca8352ecd0e068";
     // treat every other chain as testnet
     return Apis.instance().chain_id !== mainnet;
 }
@@ -94,7 +94,7 @@ export function getUnits() {
     if (_isTestnet()) {
         return ["KREEL_TEST"];
     }
-    return ["KREEL", "USD", "KREEL.USDT", "KREEL.BTC"];
+    return ["KREEL", "USD", "KZT"];
 }
 
 export function getDefaultMarket() {
@@ -102,7 +102,7 @@ export function getDefaultMarket() {
         return "USD_TEST";
     }
     // [market 0]
-    return "KREEL.USDT_KREEL";
+    return "KREEL.KZT";
     //return "KREEL.USD";
 }
 
@@ -115,7 +115,7 @@ export function getMyMarketsBases() {
     if (_isTestnet()) {
         return ["KREEL_TEST"];
     }
-    return ["KREEL", "USD", "KREEL.BTC", "KREEL.USDT"];
+    return ["KREEL", "USD", "KZT"];
 }
 
 /*
@@ -123,7 +123,7 @@ All trusted tokens
  */
 export function get_allTokens() {
     return {
-        nativeTokens: ["KREEL"], //, "USD", "EUR", "RUB", "CNY", "GOLD", "SILVER"],
+        nativeTokens: ["KREEL", "USD", "KZT"], //,"EUR", "RUB", "CNY", "GOLD", "SILVER"],
         kreelTokens: [
             //            "DONATE",
             //            "DEXBOT",
@@ -198,33 +198,33 @@ export function getFeaturedMarkets(quotes = []) {
         return [["USD", "KREEL_TEST"]];
     }
     return [
-        //        ["KREEL", "USD"],
-        //        ["KREEL", "EUR"],
+        ["KREEL", "KZT"],
+        ["KREEL", "USD"]
         //        ["KREEL", "RUB"],
         //        ["KREEL", "CNY"],
         //        ["KREEL", "GOLD"],
         //        ["KREEL", "SILVER"],
-        ["KREEL", "KREEL.USDT"],
-        ["KREEL", "KREEL.BTC"],
-        ["KREEL", "KREEL.ETH"],
-        ["KREEL", "KREEL.TRX"],
-        ["KREEL", "KREEL.LIME"],
+        //        ["KREEL", "KREEL.USDT"],
+        //        ["KREEL", "KREEL.BTC"],
+        //        ["KREEL", "KREEL.ETH"],
+        //        ["KREEL", "KREEL.TRX"],
+        //        ["KREEL", "KREEL.LIME"],
 
-        ["KREEL.USDT", "KREEL"],
+        //        ["KREEL.USDT", "KREEL"],
         //        ["KREEL.USDT", "USD"],
         //        ["KREEL.USDT", "EUR"],
         //        ["KREEL.USDT", "RUB"],
         //        ["KREEL.USDT", "CNY"],
         //        ["KREEL.USDT", "GOLD"],
         //        ["KREEL.USDT", "SILVER"],
-        ["KREEL.USDT", "KREEL.BTC"],
-        ["KREEL.USDT", "KREEL.ETH"],
-        ["KREEL.USDT", "KREEL.TRX"],
-        ["KREEL.USDT", "KREEL.LIME"],
-        ["KREEL.USDT", "KREEL.BUSD"],
+        //        ["KREEL.USDT", "KREEL.BTC"],
+        //        ["KREEL.USDT", "KREEL.ETH"],
+        //        ["KREEL.USDT", "KREEL.TRX"],
+        //        ["KREEL.USDT", "KREEL.LIME"],
+        //        ["KREEL.USDT", "KREEL.BUSD"],
 
-        ["KREEL.BTC", "KREEL"],
-        ["KREEL.BTC", "KREEL.USDT"]
+        //        ["KREEL.BTC", "KREEL"],
+        //        ["KREEL.BTC", "KREEL.USDT"]
     ].filter(a => {
         if (!quotes.length) return true;
         return quotes.indexOf(a[0]) !== -1;

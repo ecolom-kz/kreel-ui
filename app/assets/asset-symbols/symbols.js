@@ -5,6 +5,7 @@ require("file-loader?name=asset-symbols/[name].png!./unknown.png");
 require("file-loader?name=asset-symbols/[name].png!./kreel.png");
 
 // gpAssets
+require("file-loader?name=asset-symbols/[name].png!./kzt.png");
 require("file-loader?name=asset-symbols/[name].png!./usd.png");
 require("file-loader?name=asset-symbols/[name].png!./eur.png");
 require("file-loader?name=asset-symbols/[name].png!./rub.png");

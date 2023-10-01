@@ -87,7 +87,7 @@ export default class ExchangeHeader extends React.Component {
         )
             return false;
 
-        return true;
+        return false;
     }
 
     render() {
