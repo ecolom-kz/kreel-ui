@@ -102,7 +102,7 @@ export function getDefaultMarket() {
         return "USD_TEST";
     }
     // [market 0]
-    return "KREEL.KZT";
+    return "KREEL_KZT";
     //return "KREEL.USD";
 }
 
