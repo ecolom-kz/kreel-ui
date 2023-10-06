@@ -277,6 +277,7 @@ class Footer extends React.Component {
         // user is not looking at the app, no reconnection effort necessary
         if (!ifvisible.now("active")) return;
 
+        const outOfSyncTrigger = 10; //  was 3
         let connected = !(this.props.rpc_connection_status === "closed");
 
         if (!connected) {
@@ -300,7 +301,7 @@ class Footer extends React.Component {
             }, forceReconnectAfterSeconds * 1000);
 
             // Still out of sync?
-            if (this.getBlockTimeDelta() > 3) {
+            if (this.getBlockTimeDelta() > outOfSyncTrigger) {
                 console.log(
                     "Your node is out of sync since " +
                         this.getBlockTimeDelta() +
@@ -311,7 +312,7 @@ class Footer extends React.Component {
                 setTimeout(() => {
                     // Only ask the user once, and only continue if still out of sync
                     if (
-                        this.getBlockTimeDelta() > 3 &&
+                        this.getBlockTimeDelta() > outOfSyncTrigger &&
                         this.state.hasOutOfSyncModalBeenShownOnce === false
                     ) {
                         this.setState({
